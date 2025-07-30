@@ -4,11 +4,13 @@ import time
 API_URL = "http://localhost:8000/generateDataset"
 # TRIGGER_WORD = "fh_ellie"
 TRIGGER_WORD = "fh_ryder"
+CHARACTER_NAME = "ryder"
 NUM_SAMPLES = 50
 
 for i in range(NUM_SAMPLES):
     payload = {
         "trigger_word": TRIGGER_WORD,
+        "character_name": CHARACTER_NAME,
         "index": i + 1
     }
 

@@ -20,18 +20,16 @@ app = FastAPI()
 async def generate_dataset(req: GenerateRequest):
     logging.info(f"🚀 Request received for index: {req.index}")
 
-    # shot_type_map = {
-    #     0: "closeup",
-    #     1: "bustShot",
-    #     2: "fullShot",
-    #     3: "kneeShot"
-    # }
-    # shot_type = shot_type_map[req.index % 4]
-    shot_type = "fullShot"
+    shot_type_map = {
+        0: "closeup",
+        1: "bustShot",
+        2: "fullShot",
+        3: "kneeShot"
+    }
+    shot_type = shot_type_map[req.index % 4]
 
     input_image_name = f"{shot_type}_{req.trigger_word}.png"
-    prompt_set_filename = f"{shot_type}_PromptSet_ryder.json"
-    # prompt_set_filename = f"{shot_type}_PromptSet.json"
+    prompt_set_filename = f"{shot_type}_PromptSet_{req.character_name}.json"
     logging.info(f"ℹ️ Using prompt set: {prompt_set_filename}")
     
     try:
