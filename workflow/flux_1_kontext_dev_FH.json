@@ -1,0 +1,237 @@
+{
+  "8": {
+    "inputs": {
+      "samples": [
+        "31",
+        0
+      ],
+      "vae": [
+        "39",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "31": {
+    "inputs": {
+      "seed": 635493730235990,
+      "steps": 20,
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1,
+      "model": [
+        "37",
+        0
+      ],
+      "positive": [
+        "35",
+        0
+      ],
+      "negative": [
+        "135",
+        0
+      ],
+      "latent_image": [
+        "124",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "35": {
+    "inputs": {
+      "guidance": 2.5,
+      "conditioning": [
+        "177",
+        0
+      ]
+    },
+    "class_type": "FluxGuidance",
+    "_meta": {
+      "title": "FluxGuidance"
+    }
+  },
+  "37": {
+    "inputs": {
+      "unet_name": "flux1-kontext-dev.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "Load Diffusion Model"
+    }
+  },
+  "38": {
+    "inputs": {
+      "clip_name1": "clip_l.safetensors",
+      "clip_name2": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "flux",
+      "device": "default"
+    },
+    "class_type": "DualCLIPLoader",
+    "_meta": {
+      "title": "DualCLIPLoader"
+    }
+  },
+  "39": {
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Load VAE"
+    }
+  },
+  "42": {
+    "inputs": {
+      "image": [
+        "146",
+        0
+      ]
+    },
+    "class_type": "FluxKontextImageScale",
+    "_meta": {
+      "title": "FluxKontextImageScale"
+    }
+  },
+  "124": {
+    "inputs": {
+      "pixels": [
+        "42",
+        0
+      ],
+      "vae": [
+        "39",
+        0
+      ]
+    },
+    "class_type": "VAEEncode",
+    "_meta": {
+      "title": "VAE Encode"
+    }
+  },
+  "135": {
+    "inputs": {
+      "conditioning": [
+        "192",
+        0
+      ]
+    },
+    "class_type": "ConditioningZeroOut",
+    "_meta": {
+      "title": "ConditioningZeroOut"
+    }
+  },
+  "136": {
+    "inputs": {
+      "filename_prefix": "triggerword",
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "142": {
+    "inputs": {
+      "image": "._00001_.png [output]",
+      "refresh": "refresh"
+    },
+    "class_type": "LoadImageOutput",
+    "_meta": {
+      "title": "Load Image (from Outputs)"
+    }
+  },
+  "146": {
+    "inputs": {
+      "direction": "right",
+      "match_image_size": true,
+      "spacing_width": 0,
+      "spacing_color": "white",
+      "image1": [
+        "142",
+        0
+      ]
+    },
+    "class_type": "ImageStitch",
+    "_meta": {
+      "title": "Image Stitch"
+    }
+  },
+  "177": {
+    "inputs": {
+      "conditioning": [
+        "192",
+        0
+      ],
+      "latent": [
+        "124",
+        0
+      ]
+    },
+    "class_type": "ReferenceLatent",
+    "_meta": {
+      "title": "ReferenceLatent"
+    }
+  },
+  "189": {
+    "inputs": {
+      "threshold": 0.5,
+      "sort_alpha": true,
+      "use_spaces": true,
+      "escape": true,
+      "filter_tags": "blacklist",
+      "device_mode": "Prefer GPU",
+      "prefix": "triggerword",
+      "suffix": "",
+      "enabled": true,
+      "image": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "DeepDanbooruCaption",
+    "_meta": {
+      "title": "Deep Danbooru Caption"
+    }
+  },
+  "190": {
+    "inputs": {
+      "root_dir": "output",
+      "file": "triggerword_00001.txt",
+      "append": "append",
+      "insert": true,
+      "text": [
+        "189",
+        0
+      ]
+    },
+    "class_type": "SaveText|pysssss",
+    "_meta": {
+      "title": "Save Text 🐍"
+    }
+  },
+  "192": {
+    "inputs": {
+      "text": "Change her expression to a soft, gentle smile with relaxed eyes and slightly upturned lips, while keeping her facial features, hairstyle, and head angle exactly the same.\n\nAdjust her gaze to look slightly to her left (viewer’s right), keeping her head and facial features completely unchanged.\n\nChange her pose so that her right hand is gently touching a strand of hair near her cheek. Maintain original head tilt and body position.\n\nUse a composition from the top of the head to the waist, ensuring even lighting and posture balance.\n\nReplace her outfit with a cozy oversized hoodie and jeans, keeping facial features, pose, and hairstyle the same.",
+      "clip": [
+        "38",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  }
+}

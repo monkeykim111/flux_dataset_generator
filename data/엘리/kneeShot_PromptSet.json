@@ -1,0 +1,101 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A knee-up shot of 'Ellie', a young East Asian woman with a slender, willowy physique and tall 8-head supermodel proportions, shown from head to just above her knees",
+      "her face reveals delicate features: a small, oval-shaped face with a sharp V-line chin, almond-shaped eyes with clear double eyelids, softly arched eyebrows, a slender nose, and small but full lips; her complexion is fair and flawless",
+      "Depict Ellie with long, voluminous black hair cascading past her shoulders in soft waves, emphasizing her elegant silhouette in a knee-up frame",
+      "Show her tall, slender figure with narrow shoulders and a slim waist in a composed, knee-level viewpoint",
+      "Emphasize her model-like proportions — long limbs and balanced posture — framed from head to just above knees"
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve her facial proportions exactly as in the original image, with subtle natural makeup (light eyeliner, no heavy shadows) and glossy, peachy-pink lips",
+      "Highlight her softly arched eyebrows and defined bridge nose, ensuring each curve matches the original reference",
+      "Render her skin texture smoothly, keeping pores invisible and tone even, with a delicate matte finish",
+      "Ensure her cheekbones remain gently contoured without harsh lines or overly bright highlights",
+      "Maintain the small fullness of her lips and the natural crease at the corners when she smiles subtly"
+    ]
+  },
+  {
+    "category": "eye_detail",
+    "prompts": [
+      "Add natural white highlights in her irises for a glossy, reflective shine while maintaining her narrow almond eye shape",
+      "Accentuate the double-eyelid fold with soft shadows to enhance depth without heavy makeup",
+      "Keep the iris color a deep, warm brown and add a subtle gradient to simulate eye depth",
+      "Depict the waterline with a barely visible sheen, avoiding any harsh white lines",
+      "Slightly darken the lash roots to mimic natural lash shadowing, preserving overall eye lightness"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "Neutral, calm expression with relaxed eyes and closed lips",
+      "Soft, gentle smile with upturned lips and relaxed eyes",
+      "Slightly sad look with downturned mouth and softly lowered eyelids",
+      "A serene, contemplative expression with her lips just parted and gaze soft",
+      "A hint of curiosity with one eyebrow ever so slightly raised, keeping lips neutral",
+      "A peaceful, content expression with a faint smile and softened gaze"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Looking straight at the viewer with steady eye contact",
+      "Gaze directed slightly to her left (viewer’s right)",
+      "Gaze lifted upward in a thoughtful glance",
+      "Eyes softly shifted downward as if reading an unseen text",
+      "A distant gaze looking toward the right edge of the frame, evoking introspection",
+      "Eyes turned subtly to the left while head remains squarely forward"
+    ]
+  },
+  {
+    "category": "pose",
+    "prompts": [
+      "Standing naturally with arms relaxed at her sides and feet visible just to the knees",
+      "Standing with one hand lightly on her hip and the other relaxed by her side, weight balanced evenly",
+      "Standing with legs together and hands gently folded in front of her waist",
+      "Standing straight with both hands casually tucked into front pockets of her skirt or pants",
+      "Standing with shoulders relaxed and one leg slightly bent at the knee for a gentle stance",
+      "Standing with back straight and chin lifted slightly, conveying quiet confidence"
+    ]
+  },
+  {
+    "category": "outfit",
+    "prompts": [
+      "A dusty rose knit pullover paired with a cream corduroy skirt and lace-up boots",
+      "A vintage graphic tee tucked into olive-green cargo shorts, paired with canvas sneakers",
+      "A floral wrap dress in muted lavender with elbow-length sleeves and beige low heels",
+      "A navy V-neck sweater layered over a white collared blouse, with soft gray culottes",
+      "A lightweight oatmeal trench coat over a charcoal knit dress ending just above the knees",
+      "A pastel yellow button-down blouse with a flowy midi-length pleated skirt and sandals",
+      "A loose striped boatneck top paired with light denim culottes and white slip-ons",
+      "An oversized ivory cardigan over a fitted black turtleneck and a plaid skirt",
+      "A rust-colored blouse with balloon sleeves tucked into high-waisted beige bermuda shorts",
+      "A linen short-sleeved dress in sage green with a waist tie and minimal white sneakers",
+      "A powder blue utility jacket over a printed tea dress and ankle boots",
+      "A mocha brown cable-knit sweater with a khaki A-line skirt and slouchy socks"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Use a knee-up shot composition only, framing from the top of her head to just above her knees",
+      "Apply a slight high-angle knee-up shot to subtly narrow her facial width while keeping knees in frame",
+      "Frame her in a front-facing knee-up shot at eye level, ensuring clear visibility from head to knees",
+      "Use a diagonal front-left knee-up angle to add depth while preserving proportional balance",
+      "Capture her in a soft telephoto knee-up shot to compress space and focus on her upper form"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Maintain the same soft, painterly brush texture, gentle illustration tone, and subtly melancholic mood throughout",
+      "Ensure consistent lighting quality that renders her skin, hair, and fabric with the same gentle highlights and shadows",
+      "Preserve the original color palette and brush stroke style in every element from eyes to outfit",
+      "Keep the overall atmosphere calm and introspective, matching the original art’s emotional tone"
+    ]
+  }
+]

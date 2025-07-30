@@ -1,0 +1,110 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A knee-up shot of 'Ryder Bay', a British aristocratic actor with a tall, lean yet muscular build and 8-head supermodel proportions, shown from head to just above the knees, conveying his composed, aristocratic presence",
+      "Depict his cold, rational demeanor and strong self-reliance, with a subtle hint of loneliness and genuine affection beneath the surface"
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve his facial structure exactly: strong square jawline, high cheekbones, straight nose bridge, and medium-full lips in a natural, muted tone; smooth, fair complexion without blemishes"
+    ]
+  },
+  {
+    "category": "eye_detail",
+    "prompts": [
+      "Depict his deep-set blue-gray eyes with subtle white highlights for a natural reflective sheen, maintaining his slight hooded eyelids"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A calm, serious expression with slightly pressed lips and relaxed, focused eyes",
+      "A distant, contemplative look with neutral lips and thoughtful gaze",
+      "A subtle, aloof half-smile with softened eyes, conveying quiet confidence"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Looking straight at the viewer with steady, confident eye contact",
+      "Gaze shifted slightly upward as if lost in thought",
+      "Gaze directed to his right (viewer’s left) with composed detachment"
+    ]
+  },
+  {
+    "category": "pose",
+    "prompts": [
+      "Standing with both hands casually tucked into his trouser pockets, shoulders relaxed and posture straight",
+      "Standing with one hand lightly resting on his hip and the other arm relaxed by his side",
+      "Standing with arms loosely crossed at chest height, maintaining an upright, composed stance"
+    ]
+  },
+  {
+    "category": "outfit",
+    "prompts": [
+      "A simple modern look: slim-fit tee under a knit cardigan and tailored slacks",
+      "A formal red-carpet outfit: black suit jacket with white shirt and bowtie or necktie",
+      "A relaxed loungewear set: henley-neck shirt with loose sleep pants or lounge trousers",
+      "A smart casual date look: trench coat over a cashmere knit sweater with denim or chino knee-length pants",
+      "A minimalist monochrome: dark leather jacket over a gray tee and knee-level slim pants",
+      "Dress him in a dark charcoal turtleneck with clean lines and soft knit texture",
+      "Outfit him with a tailored black blazer over a crisp white dress shirt",
+      "Style him in a light gray wool coat with a structured collar and hidden buttons",
+      "Put him in a navy cashmere sweater layered over a pale blue oxford shirt",
+      "Give him a beige trench coat with epaulets and a belted waist, worn open",
+      "Let him wear a minimal black mock neck pullover with sharp shoulders",
+      "Outfit him with a deep burgundy cardigan over a cream turtleneck",
+      "Dress him in a classic white dress shirt with subtle pinstripes and the top button undone",
+      "Style him in a dark green crew neck knit with ribbed cuffs and collar",
+      "Put him in a midnight blue blazer with no tie, over a slate-gray inner tee",
+      "Dress him in a soft beige half-zip knit sweater with subtle ribbed texture and a high collar, slightly unzipped",
+      "Outfit him with a navy-blue wool vest layered over a light gray dress shirt, top button open",
+      "Put him in a dark brown button-up shirt made of lightweight suede, giving a calm and textured look",
+      "Style him in a charcoal-gray shawl collar cardigan with fine ribbing over a crisp black inner tee",
+      "Let him wear a slate blue turtleneck under a structured collarless jacket with matte finish",
+      "Give him a layered look with a sand-colored overshirt over a white mock-neck knit",
+      "Outfit him in a high-neck zip-up knit jacket in olive green, worn halfway unzipped for a relaxed feel",
+      "Dress him in a light ivory knit polo with three buttons undone, maintaining minimal elegance",
+      "Dress him in a deep navy turtleneck layered under a soft cashmere over-shirt, subtly fitted",
+      "Put him in a light stone-gray mandarin collar shirt with hidden buttons and a relaxed cut",
+      "Outfit him with a double-breasted charcoal wool blazer over a muted brown mock-neck inner",
+      "Style him in a dusty plum knit sweater with ribbed cuffs and neckline, tucked into tailored slacks",
+      "Let him wear a slim-fit black Henley shirt with three buttons undone for understated confidence",
+      "Dress him in a steel blue crewneck with subtle melange texture, paired with minimalist outerwear",
+      "Outfit him in a dark taupe roll-neck sweater under a slim, open collar wool jacket",
+      "Style him in a white turtleneck with subtle ribbing beneath a muted beige military-style overshirt",
+      "Put him in a clean-cut cream knit with extended sleeves and slight drop shoulders",
+      "Let him wear a dark charcoal vest over a high-collar zip sweater in slate gray",
+      "Outfit him with a black utility shirt with flap chest pockets and hidden placket",
+      "Give him a minimal open-collar shirt in soft ivory cotton, worn over a fitted black base layer",
+      "Dress him in a dark burgundy high-neck pullover with tonal seam lines",
+      "Style him in a crisp sky blue dress shirt under a navy knit vest with deep armholes",
+      "Put him in a monochrome gray layered look: turtleneck under an open short-sleeved jacket",
+      "Let him wear a washed black denim overshirt with contrast stitching and metallic snap buttons",
+      "Outfit him in a tan suede zip-up jacket over a neutral tone Henley inner",
+      "Dress him in a linen-blend stand collar shirt in muted olive with natural creases",
+      "Put him in a fitted black mock-neck layered under a soft-checkered beige shirt",
+      "Let him wear a sleek, pinstriped wool shirt in dark navy with white accent stitching"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Use a knee-up shot composition only, framing from the top of his head to just above his knees",
+      "Apply a slight low-angle knee-up shot to emphasize his height while keeping knees in frame",
+      "Frame him in a front-facing knee-up shot at eye level for balanced visibility"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Maintain the same clean line-art style with soft, textured brush strokes and a neutral color palette",
+      "Ensure consistent, soft lighting with gentle shadows that define his facial and clothing details",
+      "Preserve the overall calm, introspective mood across every knee-up scene"
+    ]
+  }
+]
+
