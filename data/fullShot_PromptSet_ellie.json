@@ -2,8 +2,7 @@
   {
     "category": "character_core",
     "prompts": [
-      "A full shot of 'Ellie', a young East Asian woman with a distinct and consistent identity. She has a slender, willowy physique with a tall, 8-head supermodel body proportion. Her limbs are exceptionally long and graceful, with narrow shoulders and a slim waist, emphasizing an elegant, linear silhouette. She has long, voluminous black hair with soft waves.",
-      "Close-up on her face reveals delicate features: a small, oval-shaped face with a sharp V-line chin. Her eyes are large but horizontally narrow, almond-shaped with clear double eyelids, conveying a gentle and subtly melancholic expression. She has thin, softly arched eyebrows, a small and slender nose with a defined bridge, and small but full lips with a natural hue. Her complexion is fair and flawless, with subtle, natural-looking makeup (light eyeliner, no heavy shadows)."
+      "A full shot of 'Ellie', a young East Asian woman with a distinct and consistent identity. She has a slender, willowy physique with a tall, 8-head supermodel body proportion. Her limbs are exceptionally long and graceful, with narrow shoulders and a slim waist, emphasizing an elegant, linear silhouette. She has long, voluminous black hair with soft waves. Her makeup is distinct: a soft wash of peachy-coral eyeshadow on the lids and under the eyes (aegyo-sal), a thin, sharp eyeliner, and long, natural-looking eyelashes. Her lips are full and plump with a glossy, peachy-pink gradient color. Her eyebrows are thin and soft."
     ]
   },
   {
@@ -27,7 +26,7 @@
   {
     "category": "composition",
     "prompts": [
-      "Full body shot, long shot, the character is fully visible against a simple, non-distracting background (e.g., plain wall, soft gradient, minimalist studio setting)."
+      "A full body shot of a woman with exaggerated proportions, a towering figure with very extremely long legs and a extremely long torso. He has a proportionally extremely small face and head. Slender build. extreamly small head. 10-head tall. Fashion illustration style. hieght is 190cm"
     ]
   },
   {
@@ -64,26 +63,36 @@
   {
     "category": "outfit",
     "prompts": [
-      "A soft, oversized knit cardigan draped over a simple sleeveless dress, preserving her slim silhouette.",
-      "A cozy writer look: a soft cardigan over a camisole and wide slacks.",
-      "A fitted black turtleneck with a beige A-line midi skirt and a leather crossbody satchel.",
-      "A loose white blouse tucked into high-waisted flare jeans with brown loafers.",
-      "A pastel floral A-line dress with a knit cardigan and ballet flats.",
-      "A soft turtleneck and a plaid skirt with ankle boots.",
-      "A business casual look: a blouse with a ribbon tie and tapered slacks.",
-      "Homewear set: an oversized t-shirt and shorts, with her hair in a messy bun.",
-      "A hoodie layered over a collared shirt and skinny jeans.",
-      "A vintage casual outfit: a loose-fit shirt tucked into denim pants with low-top sneakers.",
-      "A flowy bohemian blouse tucked into linen wide-leg pants and simple leather sandals.",
-      "A crisp white button-down shirt paired with navy cigarette pants and loafers.",
-      "A pleated navy midi skirt with a soft cashmere crewneck sweater and ankle boots.",
-      "A vintage band tee under a lightweight blazer with straight-leg jeans.",
-      "A knit vest layered over a collared shirt, tailored trousers, and low heels.",
-      "A muted floral wrap dress with slip-on mules and delicate jewelry.",
-      "A long wool coat over a turtleneck and fitted trousers with Chelsea boots.",
-      "A monochrome jumpsuit cinched with a thin belt and pointed flats.",
-      "A cropped denim jacket over a slip dress and white sneakers.",
-      "A high-neck sleeveless blouse tucked into a high-waisted midi skirt with ballet flats."
+      "Dress her in a soft beige oversized knit with rolled sleeves and a boat neckline",
+      "Give her a light blue oxford shirt with subtle vertical stripes and a loose collar",
+      "Put her in a washed olive green linen top with visible texture and a half-button placket",
+      "Style her with a rose pink cardigan over a white inner tee, loosely draped",
+      "Dress her in a warm mustard turtleneck with visible ribbing and a snug fit",
+      "Outfit her with a pastel lavender V-neck sweater over a white collared shirt",
+      "Let her wear a navy-and-cream striped Breton shirt with three-quarter sleeves",
+      "Put her in a sky blue short-sleeved blouse with buttons and soft gathers at the chest",
+      "Dress her in a charcoal gray cotton pullover with slight oversized drop shoulders",
+      "Style her in a light mint button-up shirt with rolled sleeves and a front pocket",
+      "Outfit her with an ivory blouse featuring lace trim at the collar and cuffs",
+      "Give her a fitted oatmeal cardigan with mother-of-pearl buttons over a mock-neck top",
+      "Dress her in a dusty pink blouse with gathered sleeves and a ribbon-tied neckline",
+      "Let her wear a pale yellow cotton top with subtle embroidery details around the neckline",
+      "Put her in a classic brown crew-neck sweater layered over a white shirt collar",
+      "Outfit her with a soft lilac puff-sleeved blouse with minimal frills",
+      "Style her in a deep blue-gray linen shirt with a relaxed fit and two chest pockets",
+      "Dress her in a light sage-green knit with loose ribbing and dropped shoulders",
+      "Give her a cream high-neck blouse with pintuck pleats and pearl button closure",
+      "Dress her in a pale mauve knit top with dropped shoulders and a scalloped neckline",
+      "Let her wear a slate gray chambray blouse with front pleats and mother-of-pearl buttons",
+      "Put her in a forest green henley-style long sleeve shirt with a soft neckline",
+      "Outfit her with a muted coral linen tunic with cuffed sleeves and side slits",
+      "Style her in a cream ribbed knit vest over a loose white shirt with puffed sleeves",
+      "Give her a soft yellow eyelet blouse with short flutter sleeves and a square neckline",
+      "Put her in a dusty blue mandarin-collar shirt with minimal contrast stitching",
+      "Outfit her with a mocha-brown wrap-style knit with a side tie and soft drape",
+      "Let her wear a fitted black mock-neck top with subtle texture and long sleeves",
+      "Dress her in a cloud-gray waffle knit long sleeve with a rounded hem",
+      "Style her in a pale peach short-sleeved shirt with shirred fabric and cuffed sleeves"
     ]
   }
 ]

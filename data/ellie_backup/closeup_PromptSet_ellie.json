@@ -1,11 +1,41 @@
 [
   {
-    "category": "expression",
+    "category": "expression_eye",
     "prompts": [
-      "Make her look quietly surprised with slightly widened small eyes and parted lips, while preserving her oval face, natural hairstyle, and gently pointed chin",
-      "Change her expression to irritated with furrowed brows and a faint scowl, maintaining her petite eyes, natural lip line, and delicate jaw contour",
-      "Make her look contemplative with closed lips and a neutral gaze, preserving her sharp nose, slightly narrow chin, and overall facial balance",
-      "Change her expression to wistful with a faint smile and eyes that appear lost in thought, while maintaining her facial structure, delicate jawline, and natural hair texture"
+      "Widen her eyes slightly to express surprise, while maintaining her original eye shape and facial proportions",
+      "Lower her eyelids gently to convey a calm or sleepy mood, keeping the rest of her facial features unchanged",
+      "Narrow her eyes slightly as if focusing intently, preserving her hairstyle and overall mood",
+      "Add a soft glisten to her eyes to suggest emotion, while keeping her expression subtle and realistic",
+      "Let her eyes look glassy with moisture as if holding back tears, while maintaining her eye shape and facial tone",
+      "Make her squint slightly with tension to show she is holding back frustration, preserving all other facial features",
+      "Raise her lower eyelids subtly to give a pouting or pleading look, while keeping her iris detail and natural makeup",
+      "Add subtle creases at the outer edge of her eyes to indicate gentle smiling, while preserving original eye scale"
+    ]
+  },
+  {
+    "category": "expression_mouth",
+    "prompts": [
+      "Slightly upturn the corners of her lips to form a gentle smile, while keeping her facial proportions and makeup unchanged",
+      "Part her lips gently to indicate she's about to speak or reacting subtly, maintaining her jawline and expression structure",
+      "Curve her lips downward to show sadness or disappointment, while preserving her facial structure and original style",
+      "Add a faint smirk on one side of her lips to express playfulness, keeping her eyes and nose unchanged",
+      "Stretch her lips wide into a laugh while revealing upper teeth slightly, keeping her jawline natural",
+      "Let her bite her lower lip gently to express hesitation or inner tension, preserving her facial shape",
+      "Keep her lips softly closed but slightly quivering to show emotion held in, while maintaining overall expression symmetry",
+      "Make her lips curl halfway into a sarcastic or skeptical grin, keeping the rest of the face neutral"
+    ]
+  },
+  {
+    "category": "expression_brows",
+    "prompts": [
+      "Raise her eyebrows slightly to convey surprise or curiosity, while keeping her eyes and mouth neutral",
+      "Lower her brows slightly toward the center to express frustration or concentration, maintaining her overall facial balance",
+      "Relax her eyebrows to show neutrality or calmness, keeping her eye shape and lips consistent",
+      "Tilt one eyebrow upward slightly to add subtle sarcasm or intrigue, without altering her other features",
+      "Arch both eyebrows high in mild shock, keeping the rest of her face unchanged",
+      "Draw her eyebrows closer together in subtle pain or confusion, while preserving her original expression line",
+      "Let one eyebrow droop slightly lower than the other to indicate emotional exhaustion, keeping the rest of the features natural",
+      "Raise one brow while the other stays relaxed to express skepticism or guarded amusement"
     ]
   },
   {
