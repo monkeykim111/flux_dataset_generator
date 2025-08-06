@@ -37,7 +37,7 @@
   {
     "category": "style_consistency",
     "prompts": [
-      "Maintain the original illustration style with soft textures, semi-realistic lighting, and gentle color tones",
+      "Maintain the original illustration style with soft textures, and gentle color tones",
       "Keep her small eye shape, oval face with a softly pointed chin, and flowing hair consistent with the original art style",
       "Preserve the same line thickness, shading patterns, and brushwork as in the original image",
       "Ensure her subtle skin highlights and smooth tonal gradients remain unchanged, especially around the cheek and chin",
@@ -45,7 +45,7 @@
       "Keep the texture of her hair and rendering style identical to her original portrait",
       "Preserve the compositional balance and mood of the original close-up artwork",
       "Ensure consistent light direction, shadow softness, and hue across all generated close-up shots",
-      "Retain the semi-soft edge definition around her face and slightly narrow jawline used in the original",
+      "Retain her face and slightly narrow jawline used in the original",
       "Keep the painterly look with low-saturation tones and delicate visual atmosphere"
     ]
   }

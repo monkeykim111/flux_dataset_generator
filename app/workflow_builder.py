@@ -9,7 +9,7 @@ def load_workflow_template():
     
 
 def build_workflow(trigger_word: str, index: int, prompt: str, input_image_name: str):
-    text_filename = f"{trigger_word}_{index:05d}.txt"
+    text_filename = f"{trigger_word}_{index:05d}_.txt"
     workflow = load_workflow_template()
     workflow["192"]["inputs"]["text"] = prompt
     workflow["136"]["inputs"]["filename_prefix"] = trigger_word
