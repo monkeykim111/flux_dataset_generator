@@ -1,0 +1,95 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered close-up of 'Ryder', a young aristocratic Western man with a sculpted and angular face. He has voluminous, effortlessly styled ash-blonde hair, parted and swept back. His facial structure is defined by high cheekbones and a strong, square jawline that tapers to a sharp chin. His eyes are sharp, almond-shaped with a slight upward tilt, and are a striking, intense light blue. They are framed by thick, straight, dark blonde eyebrows, giving him a serious and focused gaze. He has a high, straight Grecian nose bridge and firm, thin lips. His complexion is pale and flawless."
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve all facial features exactly as depicted in the original close-up image, including his deep-set almond eyes with neutral eyelids, straight and high nose bridge, sculpted cheekbones, slightly squared jawline, and naturally parted hair; keep the original facial proportions, skin shading, and painterly rendering style consistent"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a melancholic expression with downturned lips and sad eyes",
+      "a sorrowful look with tears welling up in the eyes",
+      "a look of deep sadness and despair"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Have him look directly at the viewer with calm and composed eyes, keeping his head centered and expression restrained",
+      "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features",
+      "Make him glance to his left (viewer’s right) as if avoiding eye contact, while keeping his posture and face structure untouched"
+    ]
+  },
+  {
+    "category": "pose_upper",
+    "prompts": [
+      "Pose him standing straight with both arms naturally down and hands not visible, maintaining a still and formal posture",
+      "Let him cross his arms lightly, (five fingers:1.3), while keeping a composed and confident mood",
+      "Have him rest one arm across his chest with the other elbow supported, (five fingers:1.3), while preserving his elegant pose",
+      "Pose him with one hand in his coat pocket and the other behind his back, (hands partly visible), keeping his body balance and posture intact",
+      "Let him stand with one shoulder slightly raised and a relaxed head tilt, hands out of frame, maintaining subtle asymmetry and poise"
+    ]
+  },
+  {
+    "category": "outfit_top",
+    "prompts": [
+      "Dress him in a dark charcoal turtleneck with clean lines and soft knit texture",
+      "Outfit him with a tailored black blazer over a crisp white dress shirt",
+      "Style him in a light gray wool coat with a structured collar and hidden buttons",
+      "Put him in a navy cashmere sweater layered over a pale blue oxford shirt",
+      "Give him a beige trench coat with epaulets and a belted waist, worn open",
+      "Let him wear a minimal black mock neck pullover with sharp shoulders",
+      "Outfit him with a deep burgundy cardigan over a cream turtleneck",
+      "Dress him in a classic white dress shirt with subtle pinstripes and the top button undone",
+      "Style him in a dark green crew neck knit with ribbed cuffs and collar",
+      "Put him in a midnight blue blazer with no tie, over a slate-gray inner tee",
+      "Dress him in a soft beige half-zip knit sweater with subtle ribbed texture and a high collar, slightly unzipped",
+      "Outfit him with a navy-blue wool vest layered over a light gray dress shirt, top button open",
+      "Put him in a dark brown button-up shirt made of lightweight suede, giving a calm and textured look",
+      "Style him in a charcoal-gray shawl collar cardigan with fine ribbing over a crisp black inner tee",
+      "Let him wear a slate blue turtleneck under a structured collarless jacket with matte finish",
+      "Give him a layered look with a sand-colored overshirt over a white mock-neck knit",
+      "Outfit him in a high-neck zip-up knit jacket in olive green, worn halfway unzipped for a relaxed feel",
+      "Dress him in a light ivory knit polo with three buttons undone, maintaining minimal elegance",
+      "Dress him in a deep navy turtleneck layered under a soft cashmere over-shirt, subtly fitted",
+      "Put him in a light stone-gray mandarin collar shirt with hidden buttons and a relaxed cut",
+      "Outfit him with a double-breasted charcoal wool blazer over a muted brown mock-neck inner",
+      "Style him in a dusty plum knit sweater with ribbed cuffs and neckline, tucked into tailored slacks",
+      "Let him wear a slim-fit black Henley shirt with three buttons undone for understated confidence",
+      "Dress him in a steel blue crewneck with subtle melange texture, paired with minimalist outerwear",
+      "Outfit him in a dark taupe roll-neck sweater under a slim, open collar wool jacket",
+      "Style him in a white turtleneck with subtle ribbing beneath a muted beige military-style overshirt",
+      "Put him in a clean-cut cream knit with extended sleeves and slight drop shoulders",
+      "Let him wear a dark charcoal vest over a high-collar zip sweater in slate gray",
+      "Outfit him with a black utility shirt with flap chest pockets and hidden placket",
+      "Give him a minimal open-collar shirt in soft ivory cotton, worn over a fitted black base layer",
+      "Dress him in a dark burgundy high-neck pullover with tonal seam lines",
+      "Style him in a crisp sky blue dress shirt under a navy knit vest with deep armholes",
+      "Put him in a monochrome gray layered look: turtleneck under an open short-sleeved jacket",
+      "Let him wear a washed black denim overshirt with contrast stitching and metallic snap buttons",
+      "Outfit him in a tan suede zip-up jacket over a neutral tone Henley inner",
+      "Dress him in a linen-blend stand collar shirt in muted olive with natural creases",
+      "Put him in a fitted black mock-neck layered under a soft-checkered beige shirt",
+      "Let him wear a sleek, pinstriped wool shirt in dark navy with white accent stitching"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image"
+    ]
+  }
+]

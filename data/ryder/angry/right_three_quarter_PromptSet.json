@@ -1,0 +1,49 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a right three-quarter angle",
+      "a bust shot from a complete right profile view",
+      "a bust shot from a right rear three-quarter angle"
+    ]
+  },
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered close-up of 'Ryder', a young aristocratic Western man with a sculpted and angular face. He has voluminous, effortlessly styled ash-blonde hair, parted and swept back. His facial structure is defined by high cheekbones and a strong, square jawline that tapers to a sharp chin. His eyes are sharp, almond-shaped with a slight upward tilt, and are a striking, intense light blue. They are framed by thick, straight, dark blonde eyebrows, giving him a serious and focused gaze. He has a high, straight Grecian nose bridge and firm, thin lips. His complexion is pale and flawless."
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve all facial features exactly as depicted in the original close-up image, including his deep-set almond eyes with neutral eyelids, straight and high nose bridge, sculpted cheekbones, slightly squared jawline, and naturally parted hair; keep the original facial proportions, skin shading, and painterly rendering style consistent"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a furious expression with narrowed eyes and a clenched jaw",
+      "a stern, angry look with furrowed brows",
+      "a look of intense anger with a downward-turned mouth",
+      "a cold, piercing glare with slightly flared nostrils and tightly pressed lips, while preserving his sharp jawline and tousled hairstyle",
+      "an intense expression of restrained anger, with a tense brow and a twitching jawline, keeping his face calm but full of internal pressure",
+      "an icy, condescending sneer with raised eyebrows and a half-curled lip, while maintaining his elegant facial structure and hair",
+      "a visibly irritated expression with eyes looking to the side and lips pursed tightly, keeping his upright posture and poised demeanor",
+      "a barely-contained fury, with a locked jaw and clenched teeth, his eyes burning with quiet rage while keeping his face and hairstyle unchanged"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Have him look directly at the viewer with calm and composed eyes, keeping his head centered and expression restrained",
+      "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features",
+      "Make him glance to his left (viewer’s right) as if avoiding eye contact, while keeping his posture and face structure untouched"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image"
+    ]
+  }
+]

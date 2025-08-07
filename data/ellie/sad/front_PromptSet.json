@@ -1,0 +1,82 @@
+[
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve all facial features exactly as depicted in the original close-up image, including her small, horizontally narrow eyes with slightly lowered outer corners, softly defined round irises with natural highlights, subtle eyeliner without heavy makeup, and her slim, tapered jawline; facial proportions, natural eyeliner and lips, and overall mood of the original, along with its art style, brush texture, and gentle illustration tone",
+      "A centered close-up of 'Ellie', a young East Asian woman with a delicate and specific facial structure. Her face is small and oval, with a softly pointed V-line chin. Her complexion is fair and flawless. She has long, voluminous black hair with a healthy sheen and soft waves. Her makeup is distinct: a soft wash of peachy-coral eyeshadow on the lids and under the eyes (aegyo-sal), a thin, sharp eyeliner, and long, natural-looking eyelashes. Her lips are full and plump with a glossy, peachy-pink gradient color. Her eyebrows are thin and soft. The overall mood is gentle, elegant, and slightly melancholic."
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a melancholic expression with downturned lips and sad eyes",
+      "a sorrowful look with tears welling up in the eyes",
+      "a look of deep sadness and despair"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Have her look directly at the viewer with full eye contact, keeping her head still and preserving her small eye shape and jawline"
+    ]
+  },
+  {
+    "category": "pose_upper",
+    "prompts": [
+      "Pose her with both arms relaxed and hands not visible, keeping a natural front-facing posture",
+      "Have her sit upright with one shoulder slightly raised, giving a subtle tilt without showing hands",
+      "Pose her with both hands behind her back, (no visible hands), while maintaining her body balance",
+      "Have her slightly lean forward with a gentle neck tilt, keeping both hands outside the frame",
+      "Let her cross her arms loosely, (five fingers:1.3), with a casual and introspective mood",
+      "Pose her with both hands inside cardigan pockets, (hands not visible), while preserving posture and facial tone",
+      "Make her rest one hand on her hip while the other is hidden behind, (five fingers:1.3)"
+    ]
+  },
+  {
+    "category": "outfit_top",
+    "prompts": [
+      "Dress her in a soft beige oversized knit with rolled sleeves and a boat neckline",
+      "Give her a light blue oxford shirt with subtle vertical stripes and a loose collar",
+      "Put her in a washed olive green linen top with visible texture and a half-button placket",
+      "Style her with a rose pink cardigan over a white inner tee, loosely draped",
+      "Dress her in a warm mustard turtleneck with visible ribbing and a snug fit",
+      "Outfit her with a pastel lavender V-neck sweater over a white collared shirt",
+      "Let her wear a navy-and-cream striped Breton shirt with three-quarter sleeves",
+      "Put her in a sky blue short-sleeved blouse with buttons and soft gathers at the chest",
+      "Dress her in a charcoal gray cotton pullover with slight oversized drop shoulders",
+      "Style her in a light mint button-up shirt with rolled sleeves and a front pocket",
+      "Outfit her with an ivory blouse featuring lace trim at the collar and cuffs",
+      "Give her a fitted oatmeal cardigan with mother-of-pearl buttons over a mock-neck top",
+      "Dress her in a dusty pink blouse with gathered sleeves and a ribbon-tied neckline",
+      "Let her wear a pale yellow cotton top with subtle embroidery details around the neckline",
+      "Put her in a classic brown crew-neck sweater layered over a white shirt collar",
+      "Outfit her with a soft lilac puff-sleeved blouse with minimal frills",
+      "Style her in a deep blue-gray linen shirt with a relaxed fit and two chest pockets",
+      "Dress her in a light sage-green knit with loose ribbing and dropped shoulders",
+      "Give her a cream high-neck blouse with pintuck pleats and pearl button closure",
+      "Dress her in a pale mauve knit top with dropped shoulders and a scalloped neckline",
+      "Let her wear a slate gray chambray blouse with front pleats and mother-of-pearl buttons",
+      "Put her in a forest green henley-style long sleeve shirt with a soft neckline",
+      "Outfit her with a muted coral linen tunic with cuffed sleeves and side slits",
+      "Style her in a cream ribbed knit vest over a loose white shirt with puffed sleeves",
+      "Give her a soft yellow eyelet blouse with short flutter sleeves and a square neckline",
+      "Put her in a dusty blue mandarin-collar shirt with minimal contrast stitching",
+      "Outfit her with a mocha-brown wrap-style knit with a side tie and soft drape",
+      "Let her wear a fitted black mock-neck top with subtle texture and long sleeves",
+      "Dress her in a cloud-gray waffle knit long sleeve with a rounded hem",
+      "Style her in a pale peach short-sleeved shirt with shirred fabric and cuffed sleeves"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair texture, skin shading, and brush detail as the original image"
+    ]
+  }
+]
