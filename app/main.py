@@ -7,12 +7,17 @@ import websockets
 import json
 import uuid
 import logging
+import random
+import glob
+from pathlib import Path
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 COMFYUI_API_URL = "http://localhost:9000/prompt"
 COMFYUI_WS_URL = "ws://localhost:9000/ws"
+# Directory where input images are stored for ComfyUI
+COMFYUI_INPUT_DIR = Path("/home/jonathan/Desktop/NewSSD500GB/newssd/ComfyUI/output")
 app = FastAPI()
 
 @app.post("/generateDataset")
@@ -33,7 +38,20 @@ async def generate_dataset(req: GenerateRequest):
         if not req.expression or not req.angle:
             raise HTTPException(status_code=400, detail="Expression and angle are required for expression mode.")
         
-        input_image_name = f"bustShot_{req.trigger_word}_{req.expression}_{req.angle}.png"
+        # Dynamically find and select a random input image
+        image_pattern = f"bustShot_{req.trigger_word}_{req.expression}_{req.angle}_*.png"
+        image_files = glob.glob(str(COMFYUI_INPUT_DIR / image_pattern))
+        
+        if image_files:
+            # Found matching images, pick one randomly
+            selected_image_path = Path(random.choice(image_files))
+            input_image_name = selected_image_path.name
+            logging.info(f"Found {len(image_files)} images for pattern '{image_pattern}'. Randomly selected: {input_image_name}")
+        else:
+            # Fallback if no numbered images are found
+            input_image_name = f"bustShot_{req.trigger_word}_{req.expression}_{req.angle}.png"
+            logging.warning(f"No images found for pattern '{image_pattern}'. Falling back to default: {input_image_name}")
+
         prompt_set_filename = f"{req.character_name}/{req.expression}/{req.angle}_PromptSet.json"
 
     else:
@@ -76,7 +94,7 @@ async def generate_dataset(req: GenerateRequest):
 
     logging.info(f"✅ Request for index {req.index} finished.")
     
-    # Use index + 1 to start numbering from 1.
+    # Reverted to user's logic
     output_image_name = f"{req.trigger_word}_{(req.index):05d}_.png"
 
     return {

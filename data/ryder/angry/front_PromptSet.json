@@ -1,14 +1,8 @@
 [
   {
-    "category": "character_core",
+    "category": "camera_angle",
     "prompts": [
-      "A centered close-up of 'Ryder', a young aristocratic Western man with a sculpted and angular face. He has voluminous, effortlessly styled ash-blonde hair, parted and swept back. His facial structure is defined by high cheekbones and a strong, square jawline that tapers to a sharp chin. His eyes are sharp, almond-shaped with a slight upward tilt, and are a striking, intense light blue. They are framed by thick, straight, dark blonde eyebrows, giving him a serious and focused gaze. He has a high, straight Grecian nose bridge and firm, thin lips. His complexion is pale and flawless."
-    ]
-  },
-  {
-    "category": "face_detail",
-    "prompts": [
-      "Preserve all facial features exactly as depicted in the original close-up image, including his deep-set almond eyes with neutral eyelids, straight and high nose bridge, sculpted cheekbones, slightly squared jawline, and naturally parted hair; keep the original facial proportions, skin shading, and painterly rendering style consistent"
+      "a straight-on bust shot, centered, looking directly at the camera"
     ]
   },
   {
@@ -31,12 +25,6 @@
       "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features",
       "Make him glance to his left (viewer’s right) as if avoiding eye contact, while keeping his posture and face structure untouched",
       ""
-    ]
-  },
-  {
-    "category": "camera_angle",
-    "prompts": [
-      "a straight-on bust shot, centered, looking directly at the camera"
     ]
   },
   {
