@@ -24,17 +24,19 @@ def build_workflow(req: GenerateRequest, prompt: str, input_image_name: str):
     """
     workflow = load_workflow_template()
 
-    # 사용자의 요청에 따라, 텍스트 파일명과 이미지 파일명을 다르게 설정
-    # 텍스트 파일명에는 고유 인덱스를 포함하여 기록
-    text_filename_base = f"{req.trigger_word}_{(req.index):05d}_"
-    
-    # 이미지 파일명은 trigger_word만 사용하여 ComfyUI의 내부 카운터가 동작하도록 함
-    image_filename_prefix = req.trigger_word
+    if req.generation_mode == "expression":
+        # 'expression' 모드에서는 expression을 파일명에 포함
+        text_filename_base = f"{req.trigger_word}_expression_{(req.index):05d}_"
+        image_filename_prefix = f"{req.trigger_word}_expression"
+    else:
+        # 'shot_type' 모드에서는 expression을 파일명에 포함하지 않음
+        text_filename_base = f"{req.trigger_word}_{(req.index):05d}_"
+        image_filename_prefix = f"{req.trigger_word}"
     
     # 워크플로우의 각 노드에 필요한 값을 채워넣음
     workflow["192"]["inputs"]["text"] = prompt
     workflow["136"]["inputs"]["filename_prefix"] = image_filename_prefix
-    workflow["189"]["inputs"]["prefix"] = image_filename_prefix
+    workflow["189"]["inputs"]["prefix"] = req.trigger_word
     workflow["190"]["inputs"]["file"] = f"{text_filename_base}.txt"
     workflow["142"]["inputs"]["image"] = f"{input_image_name} [output]"
 

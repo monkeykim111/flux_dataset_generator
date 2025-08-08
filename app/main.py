@@ -108,7 +108,7 @@ async def generate_dataset(req: GenerateRequest):
                     # --- 작업 완료 후 텍스트 파일에 expression 추가 ---
                     if req.generation_mode == "expression" and req.expression:
                         output_dir = COMFYUI_INPUT_DIR # ComfyUI의 output 폴더를 사용
-                        txt_filename = f"{req.trigger_word}_{(req.index):05d}_.txt"
+                        txt_filename = f"{req.trigger_word}_expression_{(req.index):05d}_.txt"
                         txt_filepath = output_dir / txt_filename
                         
                         # --- 재시도 로직 추가 ---
@@ -144,7 +144,7 @@ async def generate_dataset(req: GenerateRequest):
     logging.info(f"✅ 인덱스({req.index}) 요청 처리 완료.")
     
     # 5. API 응답 반환
-    output_image_name = f"{req.trigger_word}_{(req.index):05d}_.png"
+    output_image_name = f"{req.trigger_word}_{(req.expression)}_{(req.index):05d}_.png"
 
     return {
         "status": "ok",
