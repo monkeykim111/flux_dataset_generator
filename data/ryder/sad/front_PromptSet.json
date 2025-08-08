@@ -21,10 +21,7 @@
   {
     "category": "gaze",
     "prompts": [
-      "Have him look directly at the viewer with calm and composed eyes, keeping his head centered and expression restrained",
-      "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features",
-      "Make him glance to his left (viewer’s right) as if avoiding eye contact, while keeping his posture and face structure untouched",
-      ""
+      "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features"
     ]
   },
   {

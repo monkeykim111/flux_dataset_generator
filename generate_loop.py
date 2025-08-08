@@ -16,7 +16,7 @@ NUM_SAMPLES_PER_SHOT_TYPE = 100
 # EXPRESSION_CHARACTERS = ["ellie", "ryder"]
 # EXPRESSIONS = ["smile", "angry", "sad"]
 EXPRESSION_CHARACTERS = ["ryder"]
-EXPRESSIONS = ["angry"]
+EXPRESSIONS = ["angry", "sad"]
 ANGLES = ["front", "left_three_quarter", "right_three_quarter"]
 NUM_SAMPLES_PER_EXPRESSION = 1
 # --- End Configuration ---

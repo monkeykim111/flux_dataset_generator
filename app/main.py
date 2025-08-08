@@ -9,6 +9,7 @@ import uuid
 import logging
 import random
 import glob
+import asyncio
 from pathlib import Path
 
 # --- 기본 설정 ---
@@ -45,9 +46,12 @@ async def generate_dataset(req: GenerateRequest):
         if not req.expression or not req.angle:
             raise HTTPException(status_code=400, detail="'표정' 모드에서는 expression과 angle 값이 반드시 필요합니다.")
         
+        shot_type = "bustShot"
         # 표정과 앵글에 맞는 입력 이미지들을 동적으로 찾아 랜덤 선택
-        image_pattern = f"bustShot_{req.trigger_word}_{req.expression}_{req.angle}_*.png"
-        image_files = glob.glob(str(COMFYUI_INPUT_DIR / image_pattern))
+        image_pattern = f"{req.character_name}/{shot_type}/{req.expression}/{req.angle}/*.png"
+        full_search_path = str(COMFYUI_INPUT_DIR / image_pattern)
+        logging.info(f"🔍 입력 이미지 검색 경로: {full_search_path}")
+        image_files = glob.glob(full_search_path)
         
         if not image_files:
             # 해당 패턴의 입력 이미지를 찾지 못하면 즉시 에러 발생
@@ -57,7 +61,8 @@ async def generate_dataset(req: GenerateRequest):
             
         # 찾은 이미지 중 하나를 랜덤으로 선택
         selected_image_path = Path(random.choice(image_files))
-        input_image_name = selected_image_path.name
+        # ComfyUI가 하위 폴더의 이미지를 찾을 수 있도록 output 폴더 기준의 상대 경로를 전달
+        input_image_name = selected_image_path.relative_to(COMFYUI_INPUT_DIR).as_posix()
         logging.info(f"'{image_pattern}' 패턴으로 {len(image_files)}개의 이미지 발견. 랜덤 선택: {input_image_name}")
 
         prompt_set_filename = f"{req.character_name}/{req.expression}/{req.angle}_PromptSet.json"
@@ -99,6 +104,41 @@ async def generate_dataset(req: GenerateRequest):
                 message = json.loads(out)
                 if message.get('type') == 'executed' and message.get('data', {}).get('prompt_id') == prompt_id:
                     logging.info(f"🎉 작업 완료 (프롬프트 ID: {prompt_id}).")
+
+                    # --- 작업 완료 후 텍스트 파일에 expression 추가 ---
+                    if req.generation_mode == "expression" and req.expression:
+                        output_dir = COMFYUI_INPUT_DIR # ComfyUI의 output 폴더를 사용
+                        txt_filename = f"{req.trigger_word}_{(req.index):05d}_.txt"
+                        txt_filepath = output_dir / txt_filename
+                        
+                        # --- 재시도 로직 추가 ---
+                        max_retries = 5
+                        retry_delay = 0.2 # 200ms
+                        for attempt in range(max_retries):
+                            try:
+                                # 파일을 읽고, 맨 뒤의 공백/개행을 제거한 후 expression 추가
+                                with open(txt_filepath, "r+", encoding="utf-8") as f:
+                                    content = f.read()
+                                    f.seek(0)
+                                    # 맨 뒤에 쉼표와 함께 expression 추가
+                                    new_content = content.rstrip() + f", {req.expression}"
+                                    f.write(new_content)
+                                    f.truncate()
+                                logging.info(f"✅ 텍스트 파일에 expression '{req.expression}' 추가 완료: {txt_filepath}")
+                                break # 성공 시 루프 탈출
+                            except FileNotFoundError:
+                                if attempt < max_retries - 1:
+                                    logging.warning(f"테스트 파일을 아직 찾을 수 없습니다. {retry_delay}초 후 재시도... ({attempt + 1}/{max_retries})")
+                                    await asyncio.sleep(retry_delay)
+                                else:
+                                    logging.error(f"❌ 텍스트 파일을 찾을 수 없어 expression을 추가하지 못했습니다: {txt_filepath}")
+                            except Exception as e:
+                                logging.error(f"❌ 텍스트 파일에 expression 추가 중 오류 발생: {e}")
+                                break # 다른 종류의 에러 발생 시 재시도 중단
+                        # -----------------------
+
+                    # -----------------------------------------
+
                     break
         
     logging.info(f"✅ 인덱스({req.index}) 요청 처리 완료.")

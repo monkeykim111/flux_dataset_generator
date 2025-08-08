@@ -34,7 +34,7 @@ def build_workflow(req: GenerateRequest, prompt: str, input_image_name: str):
     # 워크플로우의 각 노드에 필요한 값을 채워넣음
     workflow["192"]["inputs"]["text"] = prompt
     workflow["136"]["inputs"]["filename_prefix"] = image_filename_prefix
-    workflow["189"]["inputs"]["prefix"] = text_filename_base
+    workflow["189"]["inputs"]["prefix"] = image_filename_prefix
     workflow["190"]["inputs"]["file"] = f"{text_filename_base}.txt"
     workflow["142"]["inputs"]["image"] = f"{input_image_name} [output]"
 
