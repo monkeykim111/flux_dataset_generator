@@ -1,0 +1,52 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a right three-quarter angle",
+      "a bust shot from a complete right profile view",
+      "a bust shot from a right rear three-quarter angle",
+      "a bust shot with the face turned slightly right from the camera, not fully in profile",
+      "a bust shot with the head tilted slightly downward while facing right three-quarter angle",
+      "a bust shot from an elevated right three-quarter angle, looking slightly down at the character",
+      "a bust shot from a low right rear angle, capturing the nape and side of the jaw",
+      "a bust shot from a complete right profile view, showing only one eye and the side of the nose and lips",
+      "a bust shot from a clean right side view, with the character looking straight ahead to the right",
+      "a charming right three-quarter angle with the head lifted slightly, conveying confidence and approachability",
+      "a right three-quarter view with eyes that hint at warmth, suggesting genuine contentment",
+      "a pleasant right three-quarter angle emphasizing the softer side of his personality",
+      "a right three-quarter shot with the face turned toward light, symbolizing hope and positive emotion"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a rare, subtle smile that hints at hidden warmth beneath his cold exterior, showing a moment of genuine gratitude toward Kasumi",
+      "a barely perceptible smile with calculating eyes, suggesting satisfaction with a successful business deal or strategic victory",
+      "a faint, genuine smile that softens his usually stern features, revealing the compassionate side he hides from the world",
+      "a subtle upturn of his lips combined with slightly warmer eyes, showing a rare moment of contentment despite his burden of revenge",
+      "a restrained smile that doesn't quite reach his eyes, maintaining his CEO composure while hinting at inner satisfaction",
+      "a quiet, knowing smile that suggests he's several steps ahead in his strategic planning, combining warmth with calculated confidence",
+      "a soft smile accompanied by briefly lowered eyes, perhaps remembering the kindness of Kasumi's grandmother in his youth",
+      "a controlled, executive smile that projects confidence and success while carefully guarding his deeper emotions and motivations",
+      "a warm, genuine smile that breaks through his usual cold demeanor, showing his capacity for real human connection despite his burden",
+      "a subtle smile of triumph mixed with relief, suggesting a moment when his strategic planning has yielded positive results",
+      "a tender, almost paternal smile that reveals his protective instincts and the gentleness he rarely allows himself to show",
+      "a confident smile that doesn't quite mask the calculating intelligence behind his eyes, blending charm with strategic thinking",
+      "a moment of pure joy that transforms his entire face, showing glimpses of who he might have been without the weight of revenge",
+      "a sophisticated smile that speaks to his refined upbringing and natural charisma, the tools he uses to navigate high society",
+      "a bittersweet smile that carries both satisfaction and sadness, reflecting his complex relationship with success and personal cost"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image"
+    ]
+  }
+]

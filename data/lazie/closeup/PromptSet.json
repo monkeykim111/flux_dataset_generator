@@ -1,0 +1,55 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered close-up of 'Lazie' (Shinomiya Lazie), a successful Japanese CEO with sharp, intelligent features. He has short, perfectly groomed hair in cool gray and black tones, styled in a professional, executive manner. His facial structure is defined by strong, angular cheekbones and a commanding jawline. His eyes are sharp and calculating with an intense, business-minded gaze that reflects years of strategic thinking. His complexion is medium-toned and healthy, projecting the confidence of someone who has achieved remarkable success at a young age."
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "Display his signature CEO composure with a cold, analytical expression and neutral mouth, maintaining his sharp features and professional grooming.",
+      "Show subtle contemplation with slightly narrowed eyes and pressed lips, reflecting his strategic mind at work on business matters or revenge plans.",
+      "Reveal a rare moment of hidden warmth with barely softened eyes, hinting at his gratitude toward Kasumi while maintaining executive control.",
+      "Express controlled irritation with a tightened jaw and steely gaze, showing his intolerance for inefficiency or obstacles.",
+      "Render a distant, calculating look with slightly unfocused eyes, embodying his strategic thinking and long-term planning nature.",
+      "Show internal conflict with slightly furrowed brows and tense features, hinting at the struggle between his cold exterior and buried emotions.",
+      "Display controlled melancholy with lowered eyelids and subtle downturn, reflecting on his family's lost honor and the weight of revenge.",
+      "Express quiet determination with a firm jawline and intense gaze, embodying his relentless pursuit of justice for his family.",
+      "Show a rare vulnerable moment with softened features, perhaps remembering his debt to Kasumi's grandmother or his family's downfall."
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Direct his gaze slightly downward as if reviewing important business documents or contemplating his next strategic move, maintaining his executive bearing.",
+      "Let him look off to his right with a calculating expression, as if assessing a business opportunity or planning his revenge, keeping his professional composure.",
+      "Turn his head slightly to show his sharp profile, highlighting his commanding jawline and the confidence of a successful CEO.",
+      "Have him look off to his left with cold detachment, as if dismissing something unworthy of his attention while maintaining his authoritative presence.",
+      "Make him look directly at the viewer with the intense, evaluating stare of a CEO sizing up a potential business partner or rival.",
+      "Adjust his gaze upward as if confronting a challenge with the determination of someone who has overcome great obstacles to achieve success.",
+      "Set his eyes toward the side with controlled distance, maintaining the composed demeanor of someone who guards their emotions carefully."
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Frame him in a centered close-up that captures his face and the top of his shoulders, maintaining the elegance of his facial proportions and clean hairstyle.",
+      "Use a close-up shot from slightly below to emphasize his pride and emotional distance, keeping the lighting and pose identical to the original.",
+      "Shoot from a slight high angle to reveal his inner vulnerability, while preserving his jawline, chin shadow, and eyes.",
+      "Use a close-up side profile view to highlight his classical bone structure and serious expression, maintaining hairstyle and rendering style.",
+      "Capture a three-quarter view from the left with soft contrast, keeping symmetry, eye depth, and overall tone aligned with the original."
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Maintain the original illustration's painterly texture with executive-level refinement, balanced lighting, and sophisticated color tones.",
+      "Preserve his sharp executive facial structure — prominent nose, angular cheekbones, and strong jawline.",
+      "Ensure consistent rendering of his perfectly groomed gray-black hair with professional styling and natural sheen.",
+      "Keep the lighting angle and shadow softness that emphasizes his authoritative presence and business sophistication.",
+      "Preserve the polished, semi-realistic brushwork that reflects his status as a successful young CEO.",
+      "Maintain the controlled, calculating mood that reflects his rational nature and hidden emotional depth."
+    ]
+  }
+]

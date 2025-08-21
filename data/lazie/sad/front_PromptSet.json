@@ -1,0 +1,48 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera",
+      "a bust shot from a left three-quarter angle",
+      "a bust shot from a right three-quarter angle",
+      "a direct frontal bust shot with perfect symmetry and centered composition",
+      "a straight-on view with the subject positioned dead center in the frame",
+      "a head-on bust shot capturing both sides of the face equally",
+      "a frontal bust shot with the camera at eye level for direct engagement",
+      "a centered bust shot from a completely frontal perspective",
+      "a straight forward view emphasizing facial symmetry and emotional vulnerability"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a subtle melancholy with slightly lowered eyelids and a barely noticeable downturn of the mouth, reflecting on his family's lost ryokan and shattered honor",
+      "a quiet sadness with distant eyes and a neutral expression, showing the weight of carrying his family's burden and planning their redemption",
+      "a controlled sorrow with a slight tension around his eyes, maintaining his CEO composure while processing the pain of his past losses",
+      "a moment of vulnerability with softened features and a distant gaze, perhaps remembering happier times before his family's downfall",
+      "a restrained expression of grief with barely visible trembling in his jaw, showing the emotional cost of his quest for justice",
+      "a stoic sadness with lowered eyes and pressed lips, reflecting his internal struggle between duty and the loneliness of his path",
+      "a subtle expression of loss with a far-off look, showing rare glimpses of the pain he hides behind his successful businessman facade",
+      "a carefully controlled melancholy that doesn't compromise his executive bearing, revealing the human cost of his lifelong pursuit of revenge",
+      "a profound weariness in his eyes that speaks to years of carrying the burden of family shame and the weight of planning revenge",
+      "a barely visible tremor in his lower lip, showing the emotional strain of maintaining his facade while nursing decades-old wounds",
+      "a distant, hollow expression as if seeing ghosts of his past, reflecting the isolation that comes with single-minded pursuit of justice",
+      "a subtle downturn of his mouth combined with unfocused eyes, suggesting moments when the facade slips and true grief shows through",
+      "an expression of quiet desperation masked by professional composure, revealing the fear that revenge might not heal his family's honor",
+      "a look of deep regret with slightly trembling eyelids, perhaps questioning whether his path of vengeance has cost him too much",
+      "a sorrowful acceptance in his features, showing the resignation of someone who knows his quest for justice may destroy his capacity for happiness"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image"
+    ]
+  }
+]

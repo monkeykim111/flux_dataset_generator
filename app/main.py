@@ -35,8 +35,8 @@ async def generate_dataset(req: GenerateRequest):
     # 1. 생성 모드에 따라 프롬프트와 입력 이미지 결정
     if req.generation_mode == "shot_type":
         # --- '샷 타입' 모드 ---
-        shot_type_map = {0: "closeup", 1: "bustShot", 2: "fullShot", 3: "kneeShot"}
-        shot_type = shot_type_map[req.index % 4]
+        shot_type_map = {0: "closeup", 1: "bustShot", 2: "kneeShot"}
+        shot_type = shot_type_map[req.index % 3]
         
         input_image_name = f"{shot_type}_{req.trigger_word}.png"
         prompt_set_filename = f"{req.character_name}/{shot_type}/PromptSet.json"

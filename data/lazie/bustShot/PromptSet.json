@@ -1,0 +1,102 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered close-up of 'Lazie' (Shinomiya Lazie), a tall, well-built Japanese businessman with a strong, athletic build (184cm, 78kg). He has short, neatly styled hair in cool tones of gray and black, perfectly groomed in a professional manner. His facial structure is defined by sharp, angular features with a strong jawline and defined cheekbones. His eyes are sharp and intelligent with a cold, calculating gaze that reflects his rational and business-minded nature. He has a straight, prominent nose bridge and firm lips. His complexion is medium-toned and healthy, giving him a mature, executive appearance."
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve all facial features exactly as depicted in the original close-up image, including his sharp, intelligent eyes with a cold gaze, straight and prominent nose bridge, angular cheekbones, strong jawline, and neatly styled gray-black hair; maintain the medium complexion and executive-like composure consistent with his CEO character"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "Display his signature cold and calculating expression with sharp, penetrating eyes and a neutral, business-like mouth, maintaining his professional CEO demeanor and neatly groomed appearance.",
+      "Show a subtly contemplative look with slightly narrowed eyes and pressed lips, reflecting his strategic mind planning his next business move or revenge, while keeping his executive composure.",
+      "Reveal a rare moment of hidden warmth with a barely perceptible softening around the eyes, hinting at his inner capacity for gratitude toward Kasumi, while maintaining his usual stern facade.",
+      "Express controlled irritation with a subtle tightening of the jaw and cold, piercing stare, showing his intolerance for inefficiency or obstacles to his goals.",
+      "Render a distant, calculating look with eyes focused on something beyond the frame, lips slightly pursed in thought, embodying his strategic planning nature.",
+      "Show a moment of internal conflict with slightly furrowed brows and a tense expression, hinting at the struggle between his cold exterior and buried emotions.",
+      "Display subtle melancholy with lowered eyelids and a barely noticeable downturn of the mouth, reflecting on his family's lost honor and the weight of his revenge.",
+      "Express quiet determination with a firm set to his jaw and intense, unwavering gaze, embodying his relentless pursuit of justice for his family.",
+      "Show a rare vulnerable moment with softened features and distant eyes, perhaps remembering his debt to Kasumi's grandmother or his lost family legacy."
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Direct his sharp, calculating gaze straight at the viewer with the intensity of a successful CEO evaluating a business opportunity, maintaining his composed and authoritative presence",
+      "Lower his gaze slightly as if reviewing important documents or contemplating his next strategic move, preserving his executive composure and thoughtful demeanor",
+      "Have him look slightly to the side with a cold, analytical expression, as if dismissing something unworthy of his attention while maintaining his professional bearing"
+    ]
+  },
+  {
+    "category": "pose_upper",
+    "prompts": [
+      "Position him in a commanding stance with both arms at his sides, maintaining the authoritative posture of a successful CEO with perfect business posture",
+      "Have him cross his arms confidently, (five fingers:1.3), displaying the assertive body language of an executive who's accustomed to control and leadership",
+      "Pose him with one arm across his chest and the other supporting his elbow, (five fingers:1.3), showing a contemplative yet authoritative executive stance",
+      "Position him with one hand in his suit jacket pocket and the other behind his back, (hands partly visible), embodying the sophisticated composure of a high-level businessman",
+      "Let him stand with slightly asymmetrical shoulders and a subtle head tilt, hands out of frame, showing the relaxed confidence of someone who has achieved success"
+    ]
+  },
+  {
+    "category": "outfit_top",
+    "prompts": [
+      "Dress him in an impeccably tailored charcoal gray business suit with a crisp white dress shirt and silk tie, embodying executive authority",
+      "Outfit him in a premium black wool blazer over a high-quality white dress shirt with subtle texture, projecting CEO sophistication",
+      "Style him in a dark navy pinstripe suit jacket with a light blue dress shirt, showcasing his successful businessman status",
+      "Put him in a sleek black turtleneck under a structured charcoal blazer, combining modern minimalism with executive presence",
+      "Dress him in a midnight blue cashmere coat over a crisp white shirt, demonstrating refined taste and business acumen",
+      "Outfit him in a perfectly fitted black mock-neck sweater with sharp, clean lines that emphasize his commanding presence",
+      "Style him in a sophisticated gray wool vest over a premium white dress shirt with the top button strategically undone",
+      "Put him in an elegant dark charcoal three-piece suit, projecting the image of a successful capital management CEO",
+      "Dress him in a luxurious black cashmere turtleneck that emphasizes his strong build and executive confidence",
+      "Outfit him in a meticulously tailored navy business blazer over a subtle striped dress shirt, showing attention to detail",
+      "Style him in a high-end charcoal wool coat with clean architectural lines, perfect for a corporate leader",
+      "Put him in a refined black mock-neck pullover under an open charcoal blazer, balancing modern style with business formality",
+      "Dress him in a premium steel gray suit jacket over a crisp white shirt, embodying corporate excellence",
+      "Outfit him in a sophisticated black wool vest layered over a high-quality white dress shirt with perfect tailoring",
+      "Style him in an executive-level dark navy turtleneck under a structured blazer, showing his calculated fashion sense",
+      "Put him in a luxurious charcoal cashmere sweater that complements his authoritative demeanor and business success",
+      "Dress him in a perfectly pressed white dress shirt under a dark gray vest, projecting professional competence",
+      "Outfit him in a sleek black business shirt with subtle texture and impeccable fit, suitable for board meetings",
+      "Style him in a high-end navy wool blazer over a minimalist white turtleneck, combining tradition with modern executive style",
+      "Put him in a sophisticated charcoal mock-neck sweater with clean lines that emphasize his strategic mindset",
+      "Dress him in a premium black wool coat with architectural shoulders, perfect for a capital management executive",
+      "Outfit him in a meticulously tailored dark gray three-piece suit that commands respect and authority",
+      "Style him in a luxurious navy cashmere turtleneck that highlights his strong, athletic build and business confidence",
+      "Put him in an elegant black blazer over a crisp white dress shirt with platinum cufflinks, showing his success",
+      "Dress him in a sophisticated charcoal wool sweater with perfect drape, embodying understated executive power",
+      "Outfit him in a high-quality dark navy mock-neck under an open charcoal coat, projecting controlled authority",
+      "Style him in a premium black business shirt with subtle pinstripes, perfect for corporate negotiations",
+      "Put him in a refined gray wool vest over a perfectly pressed white shirt, showing his attention to professional detail",
+      "Dress him in a luxurious charcoal turtleneck with clean, modern lines that complement his CEO status",
+      "Outfit him in an impeccably tailored black suit jacket over a high-end white dress shirt, embodying business excellence",
+      "Style him in a sophisticated navy wool coat with structured shoulders, perfect for a successful young executive",
+      "Put him in a sleek charcoal mock-neck sweater that emphasizes his rational, business-minded approach to fashion",
+      "Dress him in a premium black cashmere blazer over a minimalist white shirt, projecting quiet confidence and success",
+      "Outfit him in a meticulously fitted dark gray wool sweater with architectural details, showing his strategic thinking",
+      "Style him in a high-end navy business shirt with perfect tailoring, suitable for important corporate meetings",
+      "Put him in a sophisticated charcoal three-piece ensemble that commands respect in any boardroom setting"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Use a straight-on executive portrait shot from shoulders to just below the chest, emphasizing his sharp jawline and authoritative presence",
+      "Frame him from a slightly low angle to enhance his commanding CEO presence and business authority, preserving his sharp features and professional grooming",
+      "Use a subtle high angle to maintain his sophisticated composure while softening his intimidating aura just enough to show his hidden humanity"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Maintain consistent rendering of his neatly styled gray-black hair with natural sheen, medium skin tone with healthy complexion, and sharp facial features that add to his sophisticated charm"
+    ]
+  }
+]
+

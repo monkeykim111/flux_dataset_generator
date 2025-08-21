@@ -1,0 +1,52 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a left three-quarter angle",
+      "a bust shot from a complete left profile view",
+      "a bust shot from a left rear three-quarter angle",
+      "a bust shot with the face turned slightly left from the camera, not fully in profile",
+      "a bust shot with the head tilted slightly downward while facing left three-quarter angle",
+      "a bust shot from an elevated left three-quarter angle, looking slightly down at the character",
+      "a bust shot from a low left rear angle, capturing the nape and side of the jaw",
+      "a bust shot from a complete left profile view, clearly showing the side of the face and a single visible eye",
+      "a bust shot from a left profile angle, with the head slightly tilted downward in a reflective pose",
+      "a dynamic left three-quarter angle with the head turned confidently, showing executive presence",
+      "a left three-quarter view with subtle head tilt upward, conveying superiority and dominance",
+      "a close left three-quarter angle emphasizing the sharp jawline and determined expression",
+      "a left three-quarter shot with the face turned slightly more toward camera, creating engaging asymmetry"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a cold, controlled fury with narrowed eyes and a tightly clenched jaw, reflecting his anger at those who wronged his family while maintaining executive composure",
+      "a stern, calculating anger with furrowed brows and a steely gaze, showing his intolerance for incompetence or obstacles to his revenge plans",
+      "an icy expression of contained rage with a downward-turned mouth, embodying his ruthless determination to reclaim his family's honor",
+      "a piercing, intimidating glare with flared nostrils and pressed lips, displaying the cold anger of a CEO who's used to getting his way",
+      "an expression of barely restrained corporate fury, with tensed features and burning eyes that promise consequences for those who cross him",
+      "a condescending sneer of disdain with raised eyebrows, showing his contempt for the Iwasaki group and those who stand in his way",
+      "a visibly irritated expression with eyes that could cut steel, reflecting his impatience with anything that delays his carefully planned revenge",
+      "a mask of controlled rage with locked jaw and clenched teeth, his executive training barely containing the fire of vengeance burning within",
+      "a dangerous expression of quiet fury with tensed facial muscles, showing the predatory patience of a businessman plotting his enemies' downfall",
+      "an intimidating scowl with darkened eyes and a menacing set to his mouth, revealing the ruthless side that built his corporate empire",
+      "a chilling expression of cold wrath with perfectly controlled features, displaying the calculated anger of someone who destroys opponents methodically",
+      "a barely contained explosive rage with flared nostrils and white-knuckled tension, showing cracks in his usually perfect executive facade",
+      "an expression of aristocratic disdain mixed with burning fury, reflecting his noble heritage and the injustice done to his family name",
+      "a terrifyingly calm anger with laser-focused eyes, embodying the controlled violence of a CEO who views revenge as just another business acquisition",
+      "a simmering rage with periodic muscle twitches, showing the internal battle between his refined upbringing and his desire for brutal justice"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image"
+    ]
+  }
+]

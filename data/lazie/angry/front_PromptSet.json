@@ -1,0 +1,59 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera",
+      "a bust shot from a left three-quarter angle",
+      "a bust shot from a right three-quarter angle",
+      "a direct frontal bust shot with perfect symmetry and centered composition",
+      "a straight-on view with the subject positioned dead center in the frame",
+      "a head-on bust shot capturing both sides of the face equally",
+      "a frontal bust shot with the camera at eye level for direct engagement",
+      "a centered bust shot from a completely frontal perspective",
+      "a straight forward view emphasizing facial symmetry and direct eye contact"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a cold, controlled fury with narrowed eyes and a tightly clenched jaw, reflecting his anger at those who wronged his family while maintaining executive composure",
+      "a stern, calculating anger with furrowed brows and a steely gaze, showing his intolerance for incompetence or obstacles to his revenge plans",
+      "an icy expression of contained rage with a downward-turned mouth, embodying his ruthless determination to reclaim his family's honor",
+      "a piercing, intimidating glare with flared nostrils and pressed lips, displaying the cold anger of a CEO who's used to getting his way",
+      "an expression of barely restrained corporate fury, with tensed features and burning eyes that promise consequences for those who cross him",
+      "a condescending sneer of disdain with raised eyebrows, showing his contempt for the Iwasaki group and those who stand in his way",
+      "a visibly irritated expression with eyes that could cut steel, reflecting his impatience with anything that delays his carefully planned revenge",
+      "a mask of controlled rage with locked jaw and clenched teeth, his executive training barely containing the fire of vengeance burning within",
+      "a dangerous expression of quiet fury with tensed facial muscles, showing the predatory patience of a businessman plotting his enemies' downfall",
+      "an intimidating scowl with darkened eyes and a menacing set to his mouth, revealing the ruthless side that built his corporate empire",
+      "a chilling expression of cold wrath with perfectly controlled features, displaying the calculated anger of someone who destroys opponents methodically",
+      "a barely contained explosive rage with flared nostrils and white-knuckled tension, showing cracks in his usually perfect executive facade",
+      "an expression of aristocratic disdain mixed with burning fury, reflecting his noble heritage and the injustice done to his family name",
+      "a terrifyingly calm anger with laser-focused eyes, embodying the controlled violence of a CEO who views revenge as just another business acquisition",
+      "a simmering rage with periodic muscle twitches, showing the internal battle between his refined upbringing and his desire for brutal justice"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust his gaze slightly downward as if lost in thought, preserving the head position and symmetrical features",
+      "Direct his eyes to look slightly to the left while maintaining frontal head position, creating subtle asymmetry",
+      "Focus his gaze intensely forward with piercing eye contact that seems to look through the viewer",
+      "Shift his eyes slightly upward as if contemplating strategy or remembering past grievances",
+      "Create a sideways glance to the right while keeping his head facing forward, suggesting wariness or calculation",
+      "Position his gaze looking past the camera as if seeing beyond the present moment to future revenge",
+      "Establish unwavering direct eye contact that demonstrates his intimidating presence and executive authority"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Maintain consistent lighting that emphasizes the sharp angles of his face and the intensity of his expression",
+      "Preserve the sophisticated color palette that reflects his wealthy background and corporate success",
+      "Keep the same high-quality rendering style that captures both his refined appearance and underlying menace",
+      "Ensure consistent facial structure and proportions that match his established character design across all angles",
+      "Maintain the elegant yet intimidating aesthetic that represents his dual nature as both gentleman and ruthless avenger"
+    ]
+  }
+]
