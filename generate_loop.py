@@ -6,22 +6,17 @@ API_URL = "http://localhost:8000/generateDataset"
 
 # --- Configuration ---
 # 'shot_type', 'expression', or 'both'
-# GENERATION_MODE = "expression"
 GENERATION_MODE = "both"
 
-# For 'shot_type' mode
-SHOT_TYPE_CHARACTERS = ["yuuma"]
-NUM_SAMPLES_PER_SHOT_TYPE = 1500
+# 'shot_type' mode
+SHOT_TYPE_CHARACTERS = ["ellie", "ryder"]
+NUM_SAMPLES_PER_SHOT_TYPE = 1
 
-# For 'expression' mode
-# EXPRESSION_CHARACTERS = ["ellie", "ryder"]
-# EXPRESSIONS = ["smile", "angry", "sad"]
-# EXPRESSION_CHARACTERS = ["ryder"]
-# EXPRESSIONS = ["smile", "angry", "sad"]
-EXPRESSION_CHARACTERS = ["yuuma"]
+# 'expression' mode
+EXPRESSION_CHARACTERS = ["ellie", "ryder"]
 EXPRESSIONS = ["smile", "angry", "sad"]
 ANGLES = ["front", "left_three_quarter", "right_three_quarter"]
-NUM_SAMPLES_PER_EXPRESSION = 130
+NUM_SAMPLES_PER_EXPRESSION = 1
 # --- End Configuration ---
 
 def get_trigger_word(character_name, prefix=None):
@@ -52,6 +47,10 @@ def get_trigger_word(character_name, prefix=None):
     return f"{prefix}_{character_name}"
 
 def run_shot_type_generation():
+    """
+    Shot type 생성 모드
+    full shot, knee shot, close up, bust shot 별로 이미지를 생성함
+    """
     print("🚀 Starting generation in 'shot_type' mode.")
     # Use a global counter for unique indices
     global_index = 0
@@ -68,6 +67,10 @@ def run_shot_type_generation():
             send_request(payload, f"{global_index}/{len(SHOT_TYPE_CHARACTERS) * NUM_SAMPLES_PER_SHOT_TYPE}")
 
 def run_expression_generation():
+    """
+    Expression 생성 모드
+    smile, angry, sad 별로 이미지를 생성함
+    """
     print("🚀 Starting generation in 'expression' mode.")
     combinations = list(itertools.product(EXPRESSION_CHARACTERS, EXPRESSIONS, ANGLES))
     total_requests = len(combinations) * NUM_SAMPLES_PER_EXPRESSION
@@ -86,16 +89,22 @@ def run_expression_generation():
                 "character_name": char,
                 "expression": expression,
                 "angle": angle,
-                "index": global_index # Pass the unique, incrementing index
+                "index": global_index
             }
             send_request(payload, f"{global_index}/{total_requests}")
 
 def run_both_generation():
+    """
+    Shot_type ➜ expression 순으로 이미지를 생성함
+    """
     print("🚀 Starting generation in 'both' mode: shot_type ➜ expression")
     run_shot_type_generation()
     run_expression_generation()
 
 def send_request(payload, progress):
+    """
+    API를 호출하여 이미지를 생성함
+    """
     print(f"▶ [{progress}] Sending request: {payload}")
     try:
         res = requests.post(API_URL, json=payload, timeout=300)
