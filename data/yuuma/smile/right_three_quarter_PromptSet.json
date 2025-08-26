@@ -1,0 +1,40 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a right three-quarter angle",
+      "a bust shot from a right profile view",
+      "a bust shot from a right rear three-quarter angle",
+      "a pleasant right three-quarter angle with a slight head lift",
+      "a right three-quarter view with mild high camera for softer mood",
+      "a tighter right three-quarter crop highlighting eye line"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a small, courteous smile with steady eyes",
+      "a polite, practiced smile that does not reach the eyes",
+      "a faint smile with a composed, strategic demeanor",
+      "a light, cordial smile intended for formal settings",
+      "a minimal smile paired with relaxed brows for approachability",
+      "a composed smile that remains measured under scrutiny"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust his gaze slightly downward as if thinking ahead, preserving head angle",
+      "Shift gaze to the lower right as if acknowledging someone off-frame",
+      "Keep eye line steady and level for professional warmth"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Avoid overbright highlights on lips; keep the smile restrained",
+      "Maintain clean right-side hair and collar silhouette"
+    ]
+  }
+]

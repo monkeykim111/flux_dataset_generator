@@ -5,23 +5,23 @@ import itertools
 API_URL = "http://localhost:8000/generateDataset"
 
 # --- Configuration ---
-# 'shot_type' or 'expression'
-# GENERATION_MODE = "expression" 
-GENERATION_MODE = "expression" 
+# 'shot_type', 'expression', or 'both'
+# GENERATION_MODE = "expression"
+GENERATION_MODE = "both"
 
 # For 'shot_type' mode
-SHOT_TYPE_CHARACTERS = ["lazie"]
-NUM_SAMPLES_PER_SHOT_TYPE = 500
+SHOT_TYPE_CHARACTERS = ["yuuma"]
+NUM_SAMPLES_PER_SHOT_TYPE = 1500
 
 # For 'expression' mode
 # EXPRESSION_CHARACTERS = ["ellie", "ryder"]
 # EXPRESSIONS = ["smile", "angry", "sad"]
 # EXPRESSION_CHARACTERS = ["ryder"]
 # EXPRESSIONS = ["smile", "angry", "sad"]
-EXPRESSION_CHARACTERS = ["lazie"]
+EXPRESSION_CHARACTERS = ["yuuma"]
 EXPRESSIONS = ["smile", "angry", "sad"]
 ANGLES = ["front", "left_three_quarter", "right_three_quarter"]
-NUM_SAMPLES_PER_EXPRESSION = 170
+NUM_SAMPLES_PER_EXPRESSION = 130
 # --- End Configuration ---
 
 def get_trigger_word(character_name, prefix=None):
@@ -43,7 +43,7 @@ def get_trigger_word(character_name, prefix=None):
         # 캐릭터별 기본 프리픽스 설정
         if character_name in ["ellie", "ryder"]:
             prefix = "fh"
-        elif character_name == "lazie":
+        elif character_name in ["lazie", "yuuma"]:
             prefix = "gb"
         else:
             # 알 수 없는 캐릭터의 경우 기본값으로 "fh" 사용
@@ -90,6 +90,11 @@ def run_expression_generation():
             }
             send_request(payload, f"{global_index}/{total_requests}")
 
+def run_both_generation():
+    print("🚀 Starting generation in 'both' mode: shot_type ➜ expression")
+    run_shot_type_generation()
+    run_expression_generation()
+
 def send_request(payload, progress):
     print(f"▶ [{progress}] Sending request: {payload}")
     try:
@@ -107,5 +112,7 @@ if __name__ == "__main__":
         run_shot_type_generation()
     elif GENERATION_MODE == "expression":
         run_expression_generation()
+    elif GENERATION_MODE == "both":
+        run_both_generation()
     else:
-        print(f"❌ Invalid GENERATION_MODE: '{GENERATION_MODE}'. Please use 'shot_type' or 'expression'.")
+        print(f"❌ Invalid GENERATION_MODE: '{GENERATION_MODE}'. Please use 'shot_type', 'expression', or 'both'.")

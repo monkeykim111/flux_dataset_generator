@@ -1,0 +1,40 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a right three-quarter angle",
+      "a bust shot from a right profile angle, head slightly tilted downward",
+      "a bust shot from a right rear three-quarter angle, showing the jawline and nape",
+      "a dynamic right three-quarter angle with a subtle chin lift",
+      "a tight right three-quarter crop to emphasize cheekbone and jaw",
+      "a right three-quarter view with a slight high camera to reduce intimidation"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a cold, dismissive glare with lips pressed thin",
+      "a tightly controlled, superior scowl with narrowed eyes",
+      "a restrained anger with a faint sneer, preserving facial structure",
+      "a clipped, managerial displeasure without raised voice",
+      "a polite smile that does not soften the eyes, revealing contempt",
+      "a quiet threat expressed only through the eyes and a firm mouth line"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust his gaze slightly downward as if judging someone, keeping head angle consistent",
+      "Look past the viewer to the lower right as if dismissing a point",
+      "Fix eyes forward with a slight squint that signals evaluation"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Maintain consistent temple hairline, ear shape, and jaw contour on the right side",
+      "Keep lapel highlights and shadow gradation consistent with light direction"
+    ]
+  }
+]

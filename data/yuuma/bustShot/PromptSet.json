@@ -1,0 +1,76 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered bust shot of 'Yuuma', a 30-year-old elite Japanese corporate ace salesman. He has neatly styled dark brown hair with a subtle side part, sharp yet composed almond eyes, a straight nose bridge, and clean, well-defined lips. His posture is upright with relaxed confidence, projecting sophistication and subtle dominance."
+    ]
+  },
+  {
+    "category": "pose_upper",
+    "prompts": [
+      "Stand straight with both arms relaxed down, hands out of frame, maintaining a formal, self-assured posture",
+      "Cross arms lightly across the chest, (five fingers:1.3), showing confident restraint",
+      "Place one hand into a suit pocket while the other rests lightly at the wrist, (five fingers:1.3), preserving composed elegance",
+      "Hold a business card case subtly in one hand, shoulders square, (five fingers:1.3), exuding professional poise",
+      "Adjust a tie knot or collar with precise movement, (five fingers:1.3), maintaining immaculate grooming",
+      "Glance at a wristwatch while keeping shoulders level, (five fingers:1.3), implying strict time discipline",
+      "Clasp both hands loosely at the lower chest, (five fingers:1.3), projecting restrained confidence",
+      "Hold a slim pen or phone between fingers casually, (five fingers:1.3), without breaking composure",
+      "Pinch a cufflink lightly while maintaining eye line (five fingers:1.3)",
+      "Touch the chin thoughtfully with the index finger (five fingers:1.3), jaw relaxed"
+    ]
+  },
+  {
+    "category": "outfit_top",
+    "prompts": [
+      "A tailored navy suit jacket over a crisp white dress shirt with a slim charcoal tie",
+      "A charcoal single-breasted blazer with a light blue oxford shirt, no tie, top button undone",
+      "A black suit jacket with a muted gray knit tie and a white pocket square",
+      "A dark brown wool blazer over a cream mock-neck knit for a sophisticated business-casual look",
+      "A light gray suit jacket paired with a navy knit polo, clean and minimal",
+      "A navy pinstripe blazer with a white shirt and a narrow navy tie for discrete authority",
+      "A charcoal herringbone blazer over a black mock neck for modern restraint",
+      "A deep midnight-blue blazer with matte buttons over a pale gray crewneck",
+      "A taupe wool sport coat layered over a white knit polo for subtle luxury",
+      "A dark olive blazer over a light stone shirt, no tie, top button open",
+      "A black double-breasted blazer with a fine-gauge charcoal turtleneck",
+      "A steel-gray blazer with tonal buttons over a white band-collar shirt",
+      "A navy blazer with a gray merino mock neck, minimal accessories"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A polite, businesslike smile that feels controlled and strategic",
+      "A cool, unreadable expression with relaxed eyelids and a neutral mouth",
+      "A subtly condescending look with the faintest curl at one corner of the lips, eyes steady",
+      "A small but self-assured smile, hiding calculation beneath courtesy",
+      "A courteous half-smile that never quite reaches the eyes",
+      "A faint smirk signaling that he is two steps ahead",
+      "A neutral face with micro-tension at the jaw, implying restrained annoyance",
+      "A practiced, media-ready smile with minimal tooth display",
+      "A thin, polite smile used for closing remarks in negotiations"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "A straight-on bust shot from shoulders to mid-chest, centered and balanced",
+      "A slight low angle bust shot to emphasize authority while keeping facial features intact",
+      "A slight high angle bust shot to soften the mood without changing posture",
+      "A gentle right three-quarter angle to reveal lapel and shoulder line while keeping symmetry",
+      "A mild left three-quarter angle to highlight tie and collar geometry",
+      "A centered framing with tighter crop to emphasize face and lapels"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure consistent hair gloss, skin tone rendering, and refined brush detail as the reference",
+      "Keep his grooming tidy and polished, preserving the same lighting, shadows, and background tone",
+      "Maintain clean lapel edges, accurate fabric weave/knit hints, and avoid flashy logos or accessories",
+      "Preserve subtle shoulder padding shape and sleeve break",
+      "Avoid moiré or aliasing on fine pinstripes"
+    ]
+  }
+]

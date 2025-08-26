@@ -1,0 +1,40 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a left three-quarter angle",
+      "a bust shot from a left profile angle, head slightly tilted downward",
+      "a bust shot from a left rear three-quarter angle, showing the jawline and nape",
+      "a dynamic left three-quarter angle with the head turned confidently",
+      "a left three-quarter view with a subtle upward chin lift, conveying superiority",
+      "a tight left three-quarter crop emphasizing cheekbone and jawline"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a cold, dismissive glare with lips pressed tight, anger contained",
+      "a controlled but intense scowl, eyebrows drawn together subtly",
+      "a sharp, contemptuous look with a slight curl at one corner of the mouth",
+      "a measured, managerial reprimand expressed with minimal facial movement",
+      "a disdainful micro-smirk signaling effortless superiority",
+      "a quiet, vindictive calm with barely tensed nasolabial area"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust his gaze slightly downward as if looking over someone, preserving head angle",
+      "Look past the viewer to the lower left as if evaluating a subordinate",
+      "Hold the eyes forward but unfocused, implying internal calculation"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Maintain consistent ear, temple, and sideburn silhouette on the left side",
+      "Keep collar and lapel edges crisp with no perspective distortion"
+    ]
+  }
+]

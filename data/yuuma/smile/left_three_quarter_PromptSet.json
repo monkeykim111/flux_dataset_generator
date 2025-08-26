@@ -1,0 +1,40 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a left three-quarter angle",
+      "a bust shot from a left profile view",
+      "a bust shot from a left rear three-quarter angle",
+      "a pleasant left three-quarter angle with a slight head lift",
+      "a left three-quarter view with a mild high camera for warmth",
+      "a tighter left three-quarter crop emphasizing eye line and cheek"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a polite, refined smile that is more strategic than emotional",
+      "a small, courteous smile with relaxed eyelids",
+      "a faint smile that suggests confidence and composure rather than warmth",
+      "a light, conversational smile suitable for introductions",
+      "a composed smile paired with slightly softened eyes",
+      "a restrained smile intended to appear sincere without overexposure"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust his gaze slightly downward as if thinking ahead, preserving head angle",
+      "Let his gaze track softly to the lower left as if considering a reply",
+      "Maintain eye line parallel to horizon for composed warmth"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Avoid exaggerated teeth display; keep lip line subtle",
+      "Preserve suit collar and hair outline on the left side without artifacts"
+    ]
+  }
+]

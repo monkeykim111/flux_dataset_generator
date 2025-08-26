@@ -1,0 +1,74 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered close-up portrait of 'Yuuma', a 30-year-old elite Japanese corporate salesman with a refined and composed demeanor. He has dark brown neatly styled hair with a subtle side part, well-groomed eyebrows, calm almond-shaped dark brown eyes, a straight medium-high nose bridge, and moderately thin, well-defined lips. His skin tone is natural and even, with a clean, healthy glow. He exudes confidence and sophistication while keeping an impenetrable, calculating air.",
+      "His appearance is polished and modern, reflecting meticulous grooming and ambition kept under tight control; nothing feels out of place or impulsive.",
+      "Project the aura of a rising corporate star who hides ruthless pragmatism behind impeccable manners and a composed, unreadable face"
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve his exact facial proportions and rendering: slightly elongated oval face, tidy side-parted dark brown hair with subtle volume, defined cheekbones, straight nose bridge, balanced jawline, and clear, cool gaze. Maintain consistent skin tone, subtle highlight placement on nose and cheek, and the same brushwork detail as the reference.",
+      "Keep eyebrows medium thickness with a straight, tidy shape; maintain well-defined philtrum and subtle lip volume; avoid exaggeration while preserving realistic skin micro-texture"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A polite, controlled smile that feels professional rather than warm, keeping his eyes calm and unreadable",
+      "A cool, detached expression with relaxed eyelids and a neutral mouth, as if evaluating the viewer",
+      "A charming but insincere smile with only the corners of the mouth slightly raised, eyes steady and composed",
+      "A faint, strategic smile that suggests confidence and self-assurance, while remaining emotionally distant",
+      "A reserved, calculating look with a very slight squint, lips pressed softly together",
+      "A pleasant but hollow smile used to build rapport in negotiations, while keeping true feelings concealed",
+      "An almost imperceptible smirk implying superiority without overt hostility",
+      "A masklike courtesy that hides growing impatience, cheeks relaxed and jaw subtly tense",
+      "A sincere-looking apology that still feels transactional, with controlled eye contact",
+      "A faint tightening around the eyes and a minimal downturn at the lip corners signaling irritation held in check",
+      "A courteous smile that conceals irritation, with the lip line barely curved",
+      "A corporate apology face: polite eyes, minimal mouth movement, emotion withheld"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look directly at the viewer with calm, businesslike eyes, head centered and steady",
+      "Shift the gaze slightly downward as if thinking several steps ahead, while keeping the head still",
+      "Glance subtly to his left (viewer’s right) as if observing someone off-camera without revealing emotion",
+      "Look slightly past the viewer with cool detachment, keeping the facial muscles relaxed",
+      "Let the eyes slide just past the camera as if checking a mental schedule, head unmoved",
+      "Micro-shift gaze to the viewer’s left while holding a composed face, as if gauging a reaction",
+      "Defocus slightly beyond the viewer, implying quick mental calculation and scenario planning",
+      "Glance briefly toward a wristwatch area without moving the head",
+      "Scan across the camera as if reviewing a mental checklist, then settle"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Use a close-up framing that captures face and the top of shoulders, straight-on and centered",
+      "Use a close-up from a slight low angle to add authority while keeping features consistent",
+      "Use a close-up from a slight high angle to soften the mood without changing facial structure",
+      "Frame in a three-quarter close-up to the right, maintaining all facial proportions and hair shape",
+      "Use a tight close-up emphasizing the eyes and nose bridge, with the mouth slightly cropped for intensity",
+      "Capture a right-side profile close-up with crisp hair outline and clear nose line",
+      "Use an extreme close-up on the eyes and brows to emphasize focus",
+      "Use a looser close-up that includes collar points and tie line"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Maintain the same realistic, clean illustration style with consistent hair gloss, skin tone rendering, and fine brush details",
+      "Keep lighting direction and shadow softness identical to the reference image",
+      "Preserve his East Asian facial features, refined grooming, and tidy hair silhouette without alteration",
+      "Use a businesslike, neutral background tone that does not compete for attention",
+      "Retain subtle skin texture and pores without over-sharpening; avoid stylization drift",
+      "Avoid oversaturated skin tones; keep palette cool-neutral",
+      "Maintain soft, neutral bokeh without distracting shapes"
+    ]
+  }
+]
+

@@ -1,0 +1,73 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A composed knee-up shot of 'Yuuma', a 30-year-old elite corporate salesman with a refined, self-possessed aura. He has neat dark brown side-parted hair, a straight posture, and a cool, calculating gaze that suggests ambition."
+    ]
+  },
+  {
+    "category": "pose_full",
+    "prompts": [
+      "Stand straight with one hand in the trouser pocket and the other at his side, (five fingers:1.3), exuding quiet authority",
+      "Adjust a cuff or watch with one hand while looking slightly away, (five fingers:1.3), maintaining structured posture",
+      "Hold a slim briefcase in one hand, shoulders relaxed yet confident, (five fingers:1.3), projecting professional ease",
+      "Cross one leg slightly forward with a relaxed stance, hands out of frame, keeping balance and composure",
+      "Lightly adjust a tie with one hand while the other rests by the side, (five fingers:1.3), conveying control",
+      "Place both hands lightly in pockets with thumbs out, (five fingers:1.3), keeping shoulders aligned",
+      "Hold a closed umbrella like a walking stick in one hand, (five fingers:1.3), posture upright and deliberate",
+      "Grip a laptop bag strap over one shoulder, (five fingers:1.3), stance balanced and composed",
+      "Rest one hand lightly on a hip while the other holds a slim folder (five fingers:1.3)",
+      "Stand with both feet parallel and weight centered, hands relaxed by sides (five fingers:1.3)"
+    ]
+  },
+  {
+    "category": "outfit_full",
+    "prompts": [
+      "A tailored navy two-piece suit with slim trousers and polished black oxford shoes",
+      "A charcoal gray suit with a white dress shirt and a subtle charcoal tie, black belt and shoes",
+      "A dark brown suit paired with a cream knit top and dark brown leather loafers",
+      "A light gray suit with a navy knit polo and clean white sneakers for a modern business look",
+      "A navy trench coat over a charcoal suit, with black cap-toe oxfords",
+      "A charcoal overcoat layered over a black turtleneck and pressed trousers",
+      "A dark olive suit with a light stone shirt and dark brown wholecut shoes",
+      "A black suit with a pale gray crewneck knit and sleek black loafers",
+      "A taupe suit paired with a white knit polo and dark brown belt and shoes",
+      "A navy suit with a charcoal knit tie and black double monks",
+      "A charcoal suit with a black turtleneck and sleek derbies"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A polite yet distant smile that suggests social mastery rather than warmth",
+      "A neutral, unreadable face with relaxed eyebrows and a steady gaze",
+      "A faintly smug expression with a subtle lift at one corner of the mouth",
+      "A courteous expression masking impatience, jaw relaxed but eyes slightly narrowed",
+      "A calm, collected look with the faintest hint of disdain around the eyes",
+      "A polite neutrality used for formal settings",
+      "A composed look with minimal lower-lid tension"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "A straight-on knee-up framing that shows from head to above knees, balanced and centered",
+      "A slight low angle to emphasize ambition and presence while preserving proportions",
+      "A slight three-quarter angle to the right to show silhouette and tailoring",
+      "A level knee-up shot from a left three-quarter angle to highlight suit drape",
+      "A mild high-angle knee-up that softens the mood without changing posture",
+      "A knee-up from a right three-quarter angle to highlight crease lines",
+      "A knee-up from a left three-quarter angle to show jacket drape"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Preserve the same realistic rendering, hair gloss, and consistent lighting as the reference",
+      "Maintain clean edges, subtle gradients, and professional color palette with minimal visual noise",
+      "Keep fabric folds disciplined and tailored; avoid exaggerated motion or casual slouch",
+      "Maintain clean trouser break and hem line",
+      "Avoid noisy patterns; prefer solid or very subtle textures"
+    ]
+  }
+]

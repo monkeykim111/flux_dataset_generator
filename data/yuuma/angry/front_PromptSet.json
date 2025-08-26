@@ -1,0 +1,47 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera",
+      "a direct frontal bust shot with perfect symmetry and centered composition",
+      "a head-on bust shot at eye level for uncompromising engagement",
+      "a centered bust shot from a completely frontal perspective",
+      "a frontal bust shot with a slight low angle to emphasize dominance",
+      "a frontal bust shot with a subtle high angle to temper severity"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a cold, piercing glare with tightened lips, anger held under strict control",
+      "a stern, condescending scowl with slightly furrowed brows, revealing contempt beneath courtesy",
+      "a restrained fury with a locked jaw and narrowed eyes, projecting superiority",
+      "a subtle but chilling anger: lips pressed thin, gaze unwavering and judgmental",
+      "a boardroom-precise fury with micro-tension at the jaw and steady eyes",
+      "a controlled, aristocratic disdain with a faint lift at one corner of the mouth",
+      "a surgical anger that reads as professional reprimand more than outburst",
+      "a frozen smile masking hostility, eyes hard and unblinking",
+      "a predatory calm with minimal facial movement, signaling calculated retaliation",
+      "a quiet, vindictive resolve with compressed lips and steady breath"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look directly at the viewer with unwavering intensity, head centered and still",
+      "Adjust his gaze slightly downward as if dismissing the viewer, preserving head position",
+      "Slide his gaze past the viewer as if already moving to the next decision",
+      "Shift eyes slightly to the left while keeping the head frontal, implying evaluation",
+      "Hold a fixed stare through the viewer, projecting unspoken consequences"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Maintain frontal symmetry and consistent jawline geometry across variations",
+      "Keep lighting contrast that sharpens brow ridge and nose bridge without harsh noise",
+      "Preserve a restrained, executive palette and avoid exaggerated redness or flush"
+    ]
+  }
+]

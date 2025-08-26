@@ -1,0 +1,38 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a left three-quarter angle",
+      "a bust shot from a left profile view",
+      "a bust shot from a left rear three-quarter angle",
+      "a contemplative left three-quarter with a slight head bow",
+      "a left three-quarter with a mild high camera for vulnerability"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a subdued sadness with slightly lowered eyes and a relaxed mouth",
+      "a muted, reflective sorrow with a faint downturn at the lips",
+      "a quiet, distant expression that suggests internal conflict",
+      "a tired resignation that never pleads for sympathy",
+      "a carefully contained ache with smooth forehead and soft jaw"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Let his gaze fall slightly downward as if avoiding eye contact, preserving head angle",
+      "Let the eyes slide toward the lower left as if recalling a memory",
+      "Keep the eye line steady and unhurried to emphasize restraint"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Avoid exaggerated nasolabial shadows; keep subtle gradients",
+      "Maintain clean hair outline and collar shape on the left"
+    ]
+  }
+]

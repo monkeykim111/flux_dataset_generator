@@ -1,0 +1,40 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera",
+      "a direct frontal bust shot with perfect symmetry and centered composition",
+      "a head-on bust shot at eye level for approachable engagement",
+      "a centered bust shot with a slight high angle to soften the mood"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a polite, professional smile that appears courteous but distant",
+      "a faint, well-mannered smile with steady eyes, suggesting self-control",
+      "a charming yet calculated smile, with only the corners of the lips raised",
+      "a subtle, practiced smile that does not reach the eyes, maintaining composure",
+      "a muted, diplomatic smile used to defuse tension without revealing intent",
+      "a relaxed, confident smile that still feels curated for the situation",
+      "a small smile paired with a steady, calculating gaze"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look directly at the viewer with calm confidence",
+      "Shift gaze slightly downward as if in measured thought",
+      "Look just off-camera to suggest attention to a counterpart",
+      "Hold eye contact while the smile remains controlled and minimal"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Maintain gentle mouth corner curvature and avoid over-widening the smile",
+      "Keep the color palette restrained and professional"
+    ]
+  }
+]

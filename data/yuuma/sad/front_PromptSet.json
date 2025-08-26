@@ -1,0 +1,38 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera",
+      "a direct frontal bust shot with centered composition and neutral background",
+      "a frontal bust shot with slight high angle to soften the mood"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a muted, regret-tinged sadness with slightly lowered outer eyelids and gently pressed lips",
+      "a quiet, distant look with a faint downturn at the corners of the mouth, emotion restrained",
+      "a composed sorrow with relaxed facial muscles, as if hiding personal turmoil",
+      "a stoic sadness that refuses to crumble, eyes glassy but controlled",
+      "a restrained grief with a faint tremor in the lip line, quickly mastered",
+      "a reflective heaviness that reads as fatigue more than display of emotion"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look slightly downward with a faraway focus, keeping head centered",
+      "Look directly at the viewer with softened eyes, posture unchanged",
+      "Let the eyes drift to mid-distance as if contemplating consequences",
+      "Hold a still, heavy gaze that does not seek comfort"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Ensure the same hair gloss, skin tone rendering, and fine brush detail as in the original reference image",
+      "Avoid tear-like highlights; keep emotion communicated through posture and micro-expressions",
+      "Maintain subdued palette and soft edge transitions"
+    ]
+  }
+]
