@@ -9,11 +9,11 @@ API_URL = "http://localhost:8000/generateDataset"
 GENERATION_MODE = "both"
 
 # 'shot_type' mode
-SHOT_TYPE_CHARACTERS = ["ellie", "ryder"]
-NUM_SAMPLES_PER_SHOT_TYPE = 1
+SHOT_TYPE_CHARACTERS = ["ryder"]
+NUM_SAMPLES_PER_SHOT_TYPE = 4
 
 # 'expression' mode
-EXPRESSION_CHARACTERS = ["ellie", "ryder"]
+EXPRESSION_CHARACTERS = ["ryder"]
 EXPRESSIONS = ["smile", "angry", "sad"]
 ANGLES = ["front", "left_three_quarter", "right_three_quarter"]
 NUM_SAMPLES_PER_EXPRESSION = 1
