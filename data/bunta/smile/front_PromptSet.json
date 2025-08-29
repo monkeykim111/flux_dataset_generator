@@ -1,0 +1,42 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera",
+      "a direct frontal bust shot with centered composition and neutral background",
+      "a head-on bust shot at eye level for approachable engagement",
+      "a centered bust shot with a slight high angle to soften the mood"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a shy, modest smile that feels sincere and small",
+      "a faint, well-mannered smile with soft eyes, suggesting kindness",
+      "a gentle smile with only the corners of the lips raised, not showy",
+      "a subtle, awkward smile that almost turns into a small laugh",
+      "a polite smile that looks relieved after tension, eyes slightly softened",
+      "a tiny smile paired with a quiet exhale ...아자스",
+      "a brightened but still modest smile after realizing everything is okay",
+      "a grateful smile that stays small, eyes relaxed"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look directly at the viewer with soft confidence",
+      "Shift gaze slightly downward as if shy but happy",
+      "Look just off-camera to the side, still smiling gently",
+      "Hold brief eye contact, then glance down while keeping the smile",
+      "Glance once toward a friend off-frame, then back with a small grin"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Maintain gentle mouth corner curvature and avoid over-widening the smile",
+      "Use a neutral palette that fits a practical student look"
+    ]
+  }
+]

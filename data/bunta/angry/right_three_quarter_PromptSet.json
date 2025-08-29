@@ -1,0 +1,43 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a right three-quarter angle",
+      "a bust shot from a right profile angle, head slightly tilted downward",
+      "a bust shot from a right rear three-quarter angle, showing hair and nape",
+      "a gentle right three-quarter angle with no aggressive chin lift",
+      "a tight right three-quarter crop emphasizing eye line and fringe",
+      "a right three-quarter with a mild high camera to reduce intensity"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a restrained frustration with a tight mouth that eases quickly",
+      "a timid glare that softens into an apologetic look",
+      "a small frown with hesitant breath, then calm",
+      "a conflicted expression that questions 'is this okay?'",
+      "a brief, embarrassed anger ending with a quiet ...아자스",
+      "a contained annoyance that turns into a polite nod",
+      "a worried look that settles into a gentle apology"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust gaze slightly downward as if uncertain, keeping head angle consistent",
+      "Look to the lower right as if stepping back from confrontation",
+      "Fix eyes forward briefly, then relax the gaze to neutral",
+      "Glance at the right hand or sleeve for a moment, then back up"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Maintain right-side hair, ear, and nape outline tidy and consistent",
+      "Avoid harsh shadows; communicate mood through subtle eye and mouth changes",
+      "Limit saturation shifts; keep palette neutral and modest"
+    ]
+  }
+]

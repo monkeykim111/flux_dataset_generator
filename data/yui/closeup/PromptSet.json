@@ -1,0 +1,77 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered close-up portrait of 'Yui', a 23-year-old East Asian woman with a refined, feminine look. She has pink-brown hair (#D19C97) often styled up with neat bangs, expressive deep brown eyes (#7E4A58), and saturated glossy lips (#FAC1AC). Her skin is a natural light beige (#FEEDE3) with a healthy glow. She exudes trendy, well-groomed charm with a lively, approachable aura and a pink-themed style."
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve exact facial features and rendering: small oval face, softly defined jawline, balanced cheekbones, straight medium nose bridge, tidy bangs framing the forehead, and hair tied back; keep eye color #7E4A58, hair color #D19C97, lip color #FAC1AC, and skin tone #FEEDE3 consistent",
+      "Maintain fashionable, trend-forward makeup: soft shimmer on lids, clean eyeliner, subtle aegyo-sal definition, long curled lashes, gentle cheek contour, and glossy, richly colored lips; avoid heavy or messy application",
+      "Keep smile lines at the outer eyes visible when she smiles to reflect her expressive nature",
+      "Render lips with a subtle gradient from #FAC1AC center to a slightly softer edge; maintain natural moisture highlights without over-sharpening",
+      "Use warm pink blush sparingly along the upper cheek, blending smoothly with skin #FEEDE3",
+      "Keep eyebrows softly arched with tidy strands, avoiding overly dark fills; maintain hairline baby hairs clean and orderly",
+      "Ensure iris highlights are soft and organic, keeping #7E4A58 depth with a gentle radial gradient"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A bright, genuine smile that reaches the eyes, creating soft eye crinkles",
+      "A friendly, confident smile with closed lips and relaxed cheeks",
+      "A composed neutral look with tidy lip line and calm gaze",
+      "A playful, lightly teasing look with a tiny upturn at one corner of the mouth",
+      "A warm, reassuring smile suited to a dependable senior at work",
+      "A slightly open-mouth smile showing minimal teeth, keeping lip gloss intact",
+      "A thoughtful look with gently pressed lips and relaxed eyelids",
+      "A soft pout for a trendy selfie vibe, without exaggeration",
+      "A cheerful greeting smile as if meeting a junior colleague"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look straight at the viewer with open, welcoming eyes",
+      "Shift gaze slightly to her left (viewer’s right) as if greeting someone",
+      "Look slightly downward as if thinking, while keeping head centered",
+      "Glance to the right with a lively spark, keeping eyebrows relaxed",
+      "Hold eye contact just past the camera as if scanning a schedule",
+      "Glance upward-left (viewer’s upper right) as if recalling a pleasant memory",
+      "Glance downward-right (viewer’s lower left) with a shy warmth",
+      "Focus just beyond the lens to imply casual distance while staying friendly",
+      "Micro-shift gaze across the lens then settle to center"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Use a close-up framing that captures face and the top of shoulders, straight-on and centered",
+      "Use a slight high angle close-up to add approachability while keeping proportions unchanged",
+      "Use a slight low angle close-up to emphasize confidence without altering features",
+      "Frame from a gentle right three-quarter angle maintaining hair silhouette and bangs shape",
+      "Use a tight close-up emphasizing eyes and lips with consistent makeup detail",
+      "Frame from a gentle left three-quarter angle preserving nose line and lip curve",
+      "Use a tight crop focused on lips and nose bridge while keeping eyes softly in frame",
+      "Capture a soft side profile close-up with clean bangs outline and ear detail",
+      "Use a slightly wider close-up to include collar line for color balance"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Maintain the same clean, realistic illustration style with soft brush textures and pink-themed accents",
+      "Keep color fidelity: skin #FEEDE3, hair #D19C97, eyes #7E4A58, lips #FAC1AC",
+      "Preserve tied-up hairstyle with neat bangs and well-groomed look; avoid messy stray hairs",
+      "Maintain soft lighting and a neutral background that complements pink tones; avoid oversaturation",
+      "Keep athletic yet feminine impression subtly visible in neck and shoulder definition without altering face",
+      "Maintain gentle specular highlights on lip gloss and hair without harsh clipping",
+      "Avoid noisy patterns or strong logos in any visible clothing; keep focus on face",
+      "Preserve hue balance so pink accents remain tasteful, not overly saturated",
+      "Keep shadow softness consistent, avoiding dramatic hard-edged lighting"
+    ]
+  }
+]
+

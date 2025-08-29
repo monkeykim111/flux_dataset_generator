@@ -1,0 +1,43 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a left three-quarter angle",
+      "a bust shot from a left profile view",
+      "a bust shot from a left rear three-quarter angle, showing hair over the ear",
+      "a pleasant left three-quarter angle with a slight head lift",
+      "a left three-quarter view with a mild high camera for warmth",
+      "a tighter left three-quarter crop emphasizing eye line and cheek"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a shy, friendly smile that reads as sincere rather than flashy",
+      "a small, courteous smile with relaxed eyelids",
+      "a faint smile that suggests kindness and modesty",
+      "a light, conversational smile as if greeting a classmate",
+      "a composed smile paired with slightly softened eyes",
+      "a restrained smile intended to be sincere without overexposure",
+      "a brightened but still small smile after a reassuring comment",
+      "a playful but reserved hint of a grin, quickly calmed"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust gaze slightly downward as if shy but pleased, preserving head angle",
+      "Let gaze track softly to the lower left as if considering a reply",
+      "Maintain eye line parallel to horizon for composed warmth",
+      "Glance left toward a friend off-frame, then back with a tiny smile"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Avoid exaggerated teeth display; keep lip line subtle",
+      "Preserve clean hair outline on the left side without artifacts"
+    ]
+  }
+]

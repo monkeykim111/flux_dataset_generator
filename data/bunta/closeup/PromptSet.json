@@ -1,0 +1,68 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered close-up portrait of 'Bunta', a 22-year-old Japanese senior college student. He has bright, healthy skin (#FFEBD9), natural dark-brown hair (#353232) with bangs slightly covering the forehead and sides over the ears, soft brown eyes, and a kind, modest presence. He looks average and unflashy, conveying a relatable student vibe.",
+      "He tends to miss romantic cues and overthinks if situations are 'compliance-safe'; keep the mood sincere, slightly awkward, and relatable."
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve gentle facial proportions: soft almond eye shape, straight medium nose bridge, natural straight eyebrows, slightly thin lips with subtle cupid’s bow, and tidy fringe. Keep realistic skin micro-texture and mild cheek highlights consistent with the reference.",
+      "Keep eyelids neutral and eyebrows natural; avoid sharp contouring and keep lip sheen minimal to maintain modest realism"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A shy, hesitant smile that feels sincere but small",
+      "A flustered look with lightly pressed lips, as if unsure what to say",
+      "A calm, attentive neutral face with a hint of kindness",
+      "A slightly embarrassed expression with eyes soft and mouth gently parted",
+      "A subtle, relieved smile after tension, still modest in scale",
+      "A worried, compliance-checking look that quickly settles into politeness",
+      "A faint smile accompanied by a tiny breathy exhale ...아자스",
+      "A thoughtful, quiet look with relaxed brows and a soft gaze",
+      "A mild surprise with widened eyes and quickly stabilized mouth line",
+      "A small, apologetic smile after misunderstanding someone’s intent",
+      "A hesitant attempt at humor that ends in a soft smile"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look slightly downward as if shy, holding the head centered",
+      "Glance off to his left (viewer’s right) with a small, polite smile",
+      "Look directly at the viewer briefly, then relax the gaze to the side",
+      "Defocus just past the camera as if lost in thought, then return to neutral",
+      "Turn the eyes to his right (viewer’s left) as if hearing someone call him",
+      "Let eyes flicker to a cup or phone near frame, then back to the viewer",
+      "Track a subtle off-frame movement as if acknowledging a classmate"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Use a centered close-up that captures his face and the top of the shoulders",
+      "Use a slight high-angle close-up to emphasize gentleness while maintaining facial proportions",
+      "Use a mild low-angle close-up that remains modest and non-dramatic",
+      "Use a left three-quarter close-up to show fringe and ear coverage",
+      "Use a right three-quarter close-up emphasizing cheek line and hair silhouette",
+      "Use a tighter close-up around eyes and nose bridge to accentuate a shy mood",
+      "Use an extreme close-up on the eyes during an awkward smile, then relax to normal"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Maintain soft, realistic brushwork and neutral lighting from the reference",
+      "Avoid strong styling or heavy makeup; preserve an ordinary, tidy student look",
+      "Use a neutral background that keeps all focus on his gentle features",
+      "Avoid oversaturation; keep a comfortable, practical palette",
+      "Keep hair strands soft and slightly unstyled; avoid crisp, lacquered finishes"
+    ]
+  }
+]
+

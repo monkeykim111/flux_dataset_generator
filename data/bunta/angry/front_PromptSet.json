@@ -1,0 +1,47 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera",
+      "a direct frontal bust shot with centered composition and neutral background",
+      "a head-on bust shot at eye level for honest, modest presence",
+      "a centered frontal bust shot with a subtle high angle to soften intensity",
+      "a frontal bust shot with a very mild low angle that remains non-dramatic"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a restrained, flustered anger with knit brows and lips pressed, trying to stay polite",
+      "a timid glare that falters quickly, eyes soft despite frustration",
+      "a confused, compliance-worried frustration with a short exhale, then calm",
+      "a tense expression with jaw slightly tight but mouth controlled, no outburst",
+      "a brief flash of irritation followed by apologetic restraint, cheeks subtly warm",
+      "a quiet, simmering upset that he tries to hide behind courtesy",
+      "a small frown with softened eyes, anger contained and self-conscious",
+      "an embarrassed anger after a misunderstanding, quickly reined in with ...아자스",
+      "a conflicted anger that questions 'is this okay?' while looking aside",
+      "a frustrated but kind look, brows knit then gradually easing"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look directly at the viewer briefly, then avert eyes downward, head centered",
+      "Adjust gaze slightly downward as if doubting himself, preserving head position",
+      "Glance to his left (viewer’s right) with hesitant irritation, then soften",
+      "Let the eyes unfocus past the viewer as if questioning 'is this okay?'",
+      "Hold a short, firm gaze that quickly relaxes to neutral",
+      "Look at his own hands for a second as if grounding himself, then back up"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Maintain modest student styling; avoid dramatic shadows or harsh contrast",
+      "Avoid exaggerated redness; convey anger via micro-expressions, not color shifts",
+      "Preserve gentle facial proportions and tidy fringe; keep background neutral"
+    ]
+  }
+]

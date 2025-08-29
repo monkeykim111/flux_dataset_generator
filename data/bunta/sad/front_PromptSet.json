@@ -1,0 +1,41 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a straight-on bust shot, centered, looking directly at the camera",
+      "a direct frontal bust shot with centered composition and neutral background",
+      "a frontal bust shot with a slight high angle to add vulnerability"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a quiet, contained sadness with lowered outer eyelids and softly pressed lips",
+      "a distant, reflective look with a faint downturn at the mouth, modestly held",
+      "a composed sorrow that stays polite, as if worried to burden others",
+      "a shy, resigned sadness that softens the eyes rather than tears",
+      "a small ache that he tries to hide, cheeks still calm",
+      "a reflective heaviness that feels like tiredness more than display of emotion",
+      "a subdued regret after missing a cue, quickly returning to composure",
+      "a gentle, apologetic sadness with a very small nod"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look slightly downward with a faraway focus, head centered",
+      "Look directly at the viewer with softened eyes, then lower gaze",
+      "Let eyes drift to mid-distance as if contemplating quietly",
+      "Hold a still, gentle gaze that avoids asking for comfort",
+      "Glance briefly at his hands as if steadying himself, then back up"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Avoid tear-like highlights; convey mood through gaze and mouth line",
+      "Maintain subdued palette and soft edge transitions"
+    ]
+  }
+]

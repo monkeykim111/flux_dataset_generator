@@ -1,0 +1,41 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a right three-quarter angle",
+      "a bust shot from a right profile view",
+      "a bust shot from a right rear three-quarter angle, showing hair and nape",
+      "a contemplative right three-quarter with a slight head bow",
+      "a right three-quarter with a mild high camera for vulnerability"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a subdued sadness with slightly lowered eyes and a neutral mouth",
+      "a muted, composed sorrow with gentle tension at the lip corners",
+      "a quiet regret with relaxed features and distant focus",
+      "a reserved ache that reveals nothing beyond necessity",
+      "a controlled heaviness with barely tightened lower eyelids",
+      "a soft apology in the eyes after an awkward pause",
+      "a modest sadness that eases back to a calm neutral"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Let gaze fall slightly downward as if avoiding eye contact, preserving head angle",
+      "Let the eyes shift toward the lower right as if weighing outcomes",
+      "Keep eye line steady and quiet to emphasize restraint",
+      "Glance once toward a held notebook, then return to viewer"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Avoid streaky tear highlights; communicate mood via pose and gaze",
+      "Maintain clean right-side hair and collar outline"
+    ]
+  }
+]

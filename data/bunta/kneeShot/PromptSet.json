@@ -1,0 +1,77 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A knee-up shot of 'Bunta', a 22-year-old Japanese senior college student with an ordinary, friendly presence. He has bright, healthy skin (#FFEBD9), natural dark-brown hair (#353232) with soft bangs and ear-covering sides, and a slim, slightly underweight frame. His outfit is practical and comfortable, not flashy.",
+      "Capture an everyday campus mood: he prioritizes comfort and utility over style, moving with small, careful gestures and a modest posture."
+    ]
+  },
+  {
+    "category": "pose",
+    "prompts": [
+      "Stand straight with a relaxed posture, both hands in hoodie pockets, casual student vibe",
+      "Hold one backpack strap over the shoulder with one hand, (five fingers:1.3), the other arm relaxed",
+      "Carry a thin notebook or tablet in one hand at the side, (five fingers:1.3), stance balanced",
+      "Adjust a sleeve with one hand while looking slightly aside, (five fingers:1.3)",
+      "Lightly scratch the back of the head with one hand, (five fingers:1.3), a bit bashful",
+      "Hold a convenience-store coffee cup in one hand, (five fingers:1.3), shoulders relaxed",
+      "Place both hands lightly in trousers pockets with thumbs out, (five fingers:1.3), natural stance",
+      "Hug a hoodie to the body with crossed forearms, (five fingers:1.3), shy but calm",
+      "Hold a library book close to the chest with both forearms, (five fingers:1.3)"
+    ]
+  },
+  {
+    "category": "outfit",
+    "prompts": [
+      "A sky-blue shirt with black trousers and simple white sneakers, neat but ordinary",
+      "A plain gray hoodie with dark jeans and worn white sneakers",
+      "A navy crewneck sweatshirt with black straight-fit pants and canvas shoes",
+      "A white tee layered under a beige overshirt, dark denim, and simple sneakers",
+      "A charcoal hoodie with relaxed-fit chinos and low-profile sneakers",
+      "A heather-gray sweatshirt with navy jogger pants and basic trainers",
+      "A light denim overshirt over a white tee, black trousers, and simple belt",
+      "A pale olive utility overshirt, white tee, navy chinos, and canvas shoes",
+      "A navy cardigan over a light blue shirt, black trousers, and minimal sneakers",
+      "A simple windbreaker over a striped tee, straight denim, and canvas shoes",
+      "A slate-blue hoodie with navy chinos and white sneakers",
+      "A plain cream sweatshirt, black trousers, and low-top sneakers",
+      "A light gray Henley tee, beige chinos, and simple sneakers"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A shy, small smile, shoulders slightly relaxed",
+      "A flustered look that quickly becomes polite and attentive",
+      "A calm, neutral face with a gentle gaze",
+      "A slightly embarrassed expression, as if caught off guard",
+      "A relieved, modest smile that never becomes showy",
+      "A conflicted look that wonders about compliance but stays courteous",
+      "A quick apologetic nod with a small smile after a near-collision",
+      "A quietly proud face as if finishing a task, still modest"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "A straight-on knee-up framing from head to above knees, centered and balanced",
+      "A slight high-angle knee-up to add approachability while keeping proportions",
+      "A mild low-angle knee-up that remains gentle and non-dramatic",
+      "A right three-quarter knee-up to show backpack strap or pocketing",
+      "A left three-quarter knee-up emphasizing relaxed silhouette and comfort",
+      "A gentle side-on knee-up showing a quiet walking motion",
+      "A tighter knee-up crop that includes hands in pockets for a casual feel"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural, soft gloss",
+      "Maintain realistic, soft rendering and neutral, even lighting as in the reference",
+      "Avoid logos or bold graphics; emphasize practical, comfortable student wear",
+      "Keep folds and drape natural, avoiding overly dramatic motion",
+      "Use a neutral background; keep the mood modest and relatable",
+      "Keep footwear simple; avoid chunky soles or flashy details"
+    ]
+  }
+]

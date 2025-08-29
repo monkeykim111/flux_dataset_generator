@@ -1,0 +1,43 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a right three-quarter angle",
+      "a bust shot from a right profile view",
+      "a bust shot from a right rear three-quarter angle, showing hair and nape",
+      "a pleasant right three-quarter angle with a slight head lift",
+      "a right three-quarter view with mild high camera for softer mood",
+      "a tighter right three-quarter crop highlighting eye line"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a small, courteous smile with soft eyes",
+      "a polite, shy smile that remains gentle",
+      "a faint smile with a modest, friendly demeanor",
+      "a light, cordial smile as if greeting someone",
+      "a minimal smile paired with relaxed brows for approachability",
+      "a composed smile that stays small and sincere",
+      "a relieved smile that grows a touch, then stays modest",
+      "a thankful smile that lingers in the eyes more than the mouth"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust gaze slightly downward as if shy, preserving head angle",
+      "Shift gaze to the lower right as if acknowledging someone off-frame",
+      "Keep eye line steady and level for approachable warmth",
+      "Glance at a friend off-frame to the right, then back with a grin"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Avoid overbright highlights on lips; keep the smile restrained",
+      "Maintain clean right-side hair and collar silhouette"
+    ]
+  }
+]

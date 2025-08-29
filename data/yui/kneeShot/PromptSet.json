@@ -1,0 +1,81 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A knee-up shot of 'Yui' (23), an East Asian woman with a fashionable, pink-themed style. She has pink-brown hair (#D19C97) often tied up with neat bangs, deep brown eyes (#7E4A58), and glossy, saturated lips (#FAC1AC). Skin is natural light beige (#FEEDE3). Her figure is slender yet well-defined at the waist and chest, with a healthy, athletic tone."
+    ]
+  },
+  {
+    "category": "pose_full",
+    "prompts": [
+      "Stand with relaxed shoulders and a gentle S-curve at the waist, one hand lightly touching hair or earring (five fingers:1.3)",
+      "Hold a small handbag at the side (five fingers:1.3), feet slightly staggered, posture upright",
+      "Place one hand lightly on the waist and the other relaxed by the side (five fingers:1.3), showing confident poise",
+      "Cross one leg slightly forward with a soft stance, hands out of frame, maintaining balance",
+      "Hold a compact or lipstick near the lower frame (five fingers:1.3), head forward, shoulders level",
+      "Lightly pull back a cardigan edge with fingertips (five fingers:1.3) while keeping a warm gaze",
+      "Lift a coffee cup near chest height (five fingers:1.3), elbows relaxed",
+      "Hold shopping bag handles lightly (five fingers:1.3), stance balanced",
+      "Tuck hair behind the ear with one hand (five fingers:1.3) while shifting weight subtly",
+      "Rest one hand on a hip with a soft smile (five fingers:1.3), posture upright"
+    ]
+  },
+  {
+    "category": "outfit_full",
+    "prompts": [
+      "A pastel pink knit top tucked into a high-waisted beige skirt, nude heels",
+      "A cream blouse with a soft bow tie, pink-brown midi skirt, and low heels",
+      "A dusty rose cardigan over a white inner and tailored trousers, beige pumps",
+      "A light beige satin blouse with pleated skirt in pale mauve, simple necklace",
+      "A pink-brown cropped jacket over a fitted dress (knee length), minimal jewelry",
+      "A soft ivory square-neck top with straight pants and light pink loafers",
+      "A pale peach knit with A-line skirt in taupe, delicate earrings",
+      "A blush pink tweed-style jacket with matching skirt, nude pumps",
+      "A rose-beige wrap dress with modest V-neck and thin belt",
+      "A pale mauve cardigan over a cream blouse and culottes",
+      "A light beige trench-style coat layered over a pink knit and skirt"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A bright, genuine smile that reaches the eyes, forming slight eye wrinkles",
+      "A warm, senior-like reassuring smile toward someone younger",
+      "A composed neutral face with tidy makeup and confident posture",
+      "A playful half-smile with a lively spark in the eyes",
+      "A friendly closed-lip smile with relaxed cheeks",
+      "A lightly surprised smile as if meeting a friend by chance",
+      "A soft laughter face with minimal open mouth, maintaining gloss detail",
+      "A composed selfie-like smile with a slight head tilt",
+      "A courteous greeting smile used at work"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Use a straight-on knee-up framing from head to just above the knees, centered",
+      "Use a slight high angle knee-up to add approachability while preserving proportions",
+      "Use a gentle right three-quarter knee-up to show silhouette and outfit details",
+      "Use a left three-quarter knee-up emphasizing waist definition and skirt drape",
+      "Use a mild low angle knee-up to suggest confidence without exaggeration",
+      "Use a mild telephoto knee-up to compress perspective and highlight tailoring",
+      "Use a slight diagonal frontal angle to add depth while keeping balance",
+      "Use a centered composition with a touch of headroom for casual elegance",
+      "Use a gentle left three-quarter with a small step-forward pose"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep color fidelity: skin #FEEDE3, hair #D19C97, eyes #7E4A58, lips #FAC1AC",
+      "Maintain trendy, well-groomed makeup with glossy lips; avoid heavy or messy looks",
+      "Preserve tied-up hairstyle with neat bangs; avoid messy stray hairs",
+      "Keep fabrics clean with subtle texture; avoid noisy patterns and flashy logos",
+      "Use soft, flattering lighting and a neutral background that complements pink hues",
+      "Maintain modest styling and tasteful silhouettes; avoid overt exposure",
+      "Avoid moiré on tweed or fine rib textures; prefer subtle weaves",
+      "Preserve clean hem lines and crease definition on skirts and trousers",
+      "Keep accessories minimal and coherent with pink-themed palette"
+    ]
+  }
+]

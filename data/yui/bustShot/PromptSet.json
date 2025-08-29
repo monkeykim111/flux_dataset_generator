@@ -1,0 +1,82 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered bust shot of 'Yui' (23), an East Asian woman with a lively, fashionable vibe. She has pink-brown hair (#D19C97) often tied up with neat bangs, deep brown eyes (#7E4A58), and glossy, richly colored lips (#FAC1AC). Her skin is a natural light beige (#FEEDE3). Her figure is feminine and well-defined at the waist and chest, giving a healthy, athletic impression."
+    ]
+  },
+  {
+    "category": "pose_upper",
+    "prompts": [
+      "Pose with relaxed shoulders and hands out of frame, chest subtly defined and posture upright",
+      "Lightly place one hand near the collarbone as if adjusting a strand of hair (five fingers:1.3)",
+      "Hold a compact or lipstick casually near the lower frame (five fingers:1.3), face forward",
+      "Cross arms softly below the chest (five fingers:1.3) while keeping a warm gaze",
+      "Rest fingertips lightly at the jawline or cheek (five fingers:1.3) without covering key features",
+      "Touch earring or hair tie subtly (five fingers:1.3), showing trendy grooming detail",
+      "Adjust a pendant necklace gently (five fingers:1.3) while keeping shoulders level",
+      "Lift a coffee cup to the frame edge (five fingers:1.3) with a friendly gaze",
+      "Pinch a cardigan edge lightly (five fingers:1.3), keeping torso relaxed",
+      "Tuck a loose bang behind the ear (five fingers:1.3) without hiding facial features"
+    ]
+  },
+  {
+    "category": "outfit_top",
+    "prompts": [
+      "A soft pink knit top that complements the theme color, gentle sheen, clean neckline",
+      "A fitted cream blouse with subtle ruffles and a delicate pendant necklace",
+      "A dusty rose cardigan over a white inner top with minimal lace trim",
+      "A pastel mauve off-shoulder knit with refined ribbing (no overt exposure)",
+      "A light beige satin blouse with a small bow tie at the collar",
+      "A pink-brown cropped jacket with clean seams over a simple tee",
+      "An ivory square-neck blouse with soft gathering and neat cuffs",
+      "A pale peach V-neck knit with fine rib texture and tidy hem",
+      "A blush pink ribbed knit vest layered over a white blouse",
+      "A rose-beige wrap-style knit with subtle side tie",
+      "A pastel pink tweed-style cardigan with small tonal buttons",
+      "A soft taupe satin camisole under an open pink cardigan (modest)"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A bright smile that creates soft eye crinkles, reflecting her expressive nature",
+      "A friendly, confident smile with glossed lips and relaxed cheeks",
+      "A calm neutral face with tidy makeup and composed gaze",
+      "A playful half-smile with a lively glint in the eyes",
+      "A warm, senior-like reassuring smile toward someone younger",
+      "A lightly surprised smile with widened eyes, maintaining makeup detail",
+      "A gentle laughter expression with minimal open mouth and soft cheeks",
+      "A composed selfie-like smile with subtle head tilt",
+      "A courteous store-staff smile suitable for a senior part-timer"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "Use a straight-on bust shot from shoulders to just below the chest, face centered",
+      "Use a slight high angle to add approachability while preserving chest and shoulder proportions",
+      "Use a slight low angle to suggest confidence without exaggeration",
+      "Frame from a gentle right three-quarter to show hair tie and bangs silhouette",
+      "Tighten crop to emphasize lips and eye makeup while keeping balance",
+      "Frame from a gentle left three-quarter to highlight earring and neckline",
+      "Use a centered composition with slightly off-center eye line for casual balance",
+      "Use a mild telephoto bust framing to compress perspective subtly",
+      "Include neckline and accessory zone clearly while keeping face dominant"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep color fidelity: skin #FEEDE3, hair #D19C97, eyes #7E4A58, lips #FAC1AC",
+      "Maintain trendy, well-groomed makeup with glossy lips and curled lashes; avoid heavy or messy looks",
+      "Preserve neat tied-up hairstyle with bangs; avoid stray messy hair",
+      "Use soft, flattering lighting and a neutral background that complements pink hues",
+      "Keep athletic yet feminine impression without altering facial identity",
+      "Avoid moiré on fine rib or tweed textures; prefer subtle patterns",
+      "Respect modest styling; avoid overt exposure or distracting accessories",
+      "Maintain clean edge definition on collars, cuffs, and lapels",
+      "Preserve soft, pearly speculars on satin or gloss surfaces"
+    ]
+  }
+]

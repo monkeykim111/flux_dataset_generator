@@ -1,0 +1,141 @@
+[
+  {
+    "category": "character_core",
+    "prompts": [
+      "A centered bust shot of 'Bunta', a 22-year-old Japanese senior college student with an ordinary, approachable look. He has bright, healthy skin (#FFEBD9), natural dark-brown hair (#353232) with soft bangs slightly covering the forehead and side hair over the ears, gentle brown eyes, and a slim student build. He appears neat but unstyled, emphasizing a modest, everyday vibe.",
+      "He is preparing for graduation with an internship already lined up; a bit more mature than before, yet still clumsy in romance and often second-guesses himself. Keep the aura practical, kind, and slightly self-conscious."
+    ]
+  },
+  {
+    "category": "face_detail",
+    "prompts": [
+      "Preserve his mild, non-flashy features: soft almond eyes, straight medium nose bridge, natural straight eyebrows, slightly thin lips, and a tidy but unstyled fringe. Keep realistic proportions, subtle skin shading, and a calm, kind expression baseline consistent with the reference.",
+      "Add very subtle under-eye softness and gentle lip texture to emphasize a modest, everyday youth; avoid glossy highlights and dramatic contouring"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "A shy, awkward smile that looks genuine but small, as if unsure what to do",
+      "A flustered look with lightly raised shoulders and lips pressed, inwardly worrying about compliance",
+      "A surprised, bashful reaction with softened eyes and a quick downward glance",
+      "A gentle, friendly smile that remains modest and restrained",
+      "A nervous half-smile with barely lifted mouth corners and averted eyes",
+      "A conflicted look that silently asks, 'Is this okay?' while trying to stay polite",
+      "A composed, neutral face that hints at kindness more than confidence",
+      "A faint, grateful smile that never becomes showy",
+      "A quietly attentive look, lips relaxed and eyes soft",
+      "A perplexed face as if missing someone’s hint, followed by an awkward micro-smile",
+      "A concentrated yet gentle look as if taking mental notes during a conversation",
+      "A bashful laugh suppressed into a tiny grin, quickly settled",
+      "A relieved micro-smile after realizing there’s no compliance issue",
+      "A modest, thankful smile as if receiving unexpected help"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Look slightly downward as if shy, head centered and steady",
+      "Glance off to his left (viewer’s right) to avoid direct eye contact while staying polite",
+      "Look directly at the viewer with gentle eyes, holding eye contact only briefly",
+      "Glance to his right (viewer’s left) as if listening carefully to someone",
+      "Defocus just past the camera as if lost in thought, then return",
+      "Let eyes dart briefly between the viewer and off-frame, uncertain but courteous",
+      "Look down at the cup or notebook in hands for a moment, then back up",
+      "Follow a moving point off-camera as if called by a classmate, then settle"
+    ]
+  },
+  {
+    "category": "pose_upper",
+    "prompts": [
+      "Stand straight with both arms relaxed down, hands out of frame, conveying natural modesty",
+      "Touch the back of his head awkwardly with one hand, (five fingers:1.3), shoulders slightly hunched",
+      "Grip one backpack strap lightly with one hand, (five fingers:1.3), staying centered",
+      "Clutch a thin notebook to the chest with one arm, (five fingers:1.3), keeping posture calm",
+      "Adjust a sleeve cuff gently, (five fingers:1.3), with a small, focused motion",
+      "Rub his neck shyly with one hand, (five fingers:1.3), eyes looking aside",
+      "Rest both hands in a hoodie pocket casually, hinting at comfort",
+      "Hold a paper cup with both hands near the chest, (five fingers:1.3), relaxed shoulders",
+      "Interlace fingers loosely at the lower chest, (five fingers:1.3), reserved demeanor",
+      "Hold a campus ID lanyard between fingers, (five fingers:1.3), fidgeting lightly",
+      "Grip a textbook by the side, (five fingers:1.3), elbows close to the body",
+      "Check a phone awkwardly with one hand, (five fingers:1.3), screen tilted inward",
+      "Pinch hoodie drawstring tips lightly, (five fingers:1.3), as a nervous habit",
+      "Brush his fringe aside briefly, (five fingers:1.3), then relax",
+      "Offer a small, polite bow with hands together, (five fingers:1.3), in front",
+      "Zip a hoodie up halfway with one hand, (five fingers:1.3), the other steadying the hem",
+      "Tuck a shirt hem lightly with fingertips, (five fingers:1.3), posture modest",
+      "Hold a slim snack bread still in wrapper near chest, (five fingers:1.3), shy glance",
+      "Rub both palms together lightly as if nervous, (five fingers:1.3), shoulders relaxed",
+      "Adjust backpack chest strap gently, (five fingers:1.3), eyes to the side",
+      "Raise a paper cup for a tiny sip, (five fingers:1.3), elbows close in",
+      "Flip a notebook open with one hand, (five fingers:1.3), eyes downward",
+      "Lightly grip the collar edge of a shirt, (five fingers:1.3), then release",
+      "Warm hands around a hot can coffee, (five fingers:1.3), small exhale",
+      "Pinch the bridge of the nose briefly (no glasses), (five fingers:1.3), then smile",
+      "Lightly dust off the shoulder seam with fingertips, (five fingers:1.3)",
+      "Lift hoodie hood slightly without wearing it, (five fingers:1.3), then drop"
+    ]
+  },
+  {
+    "category": "outfit_top",
+    "prompts": [
+      "A sky-blue oxford shirt worn neatly with the top button open, simple and clean",
+      "A plain gray hoodie with a soft cotton texture, minimal drawstrings",
+      "A solid navy crewneck sweatshirt without logos, slightly loose fit",
+      "A basic white T-shirt under a light beige overshirt, casual student style",
+      "A charcoal hoodie layered over a white tee, relaxed and practical",
+      "A muted forest-green sweatshirt with ribbed cuffs, no graphics",
+      "A light blue shirt layered under a navy cardigan, modest and tidy",
+      "A washed black zip-up hoodie with simple metal zipper, understated",
+      "A plain cream long-sleeve tee with minimal seam details",
+      "A soft heather-gray sweatshirt with subtle melange texture",
+      "A light denim overshirt over a white tee, simple campus look",
+      "A minimal slate-blue hoodie with a relaxed hood and no prints",
+      "A pale olive utility overshirt with hidden pockets, worn open",
+      "A light striped long-sleeve tee under a navy hoodie",
+      "A small-check light blue shirt untucked over a white tee",
+      "An oatmeal half-zip fleece with a simple metal zipper",
+      "A navy cardigan with no logos over a plain tee",
+      "A soft brown sweatshirt slightly oversized with minimal seams",
+      "A pale gray Henley tee with two buttons undone",
+      "A simple navy windbreaker over a white tee, minimal details",
+      "A soft beige flannel shirt with fine plaid over a plain tee",
+      "A light waffle-knit crewneck in oatmeal, no logos",
+      "A pale blue striped oxford, sleeves gently rolled",
+      "A muted maroon sweatshirt, collar slightly stretched from wear",
+      "A thin quilted liner jacket in light gray over a tee",
+      "A lightweight rain jacket in slate blue with matte snaps",
+      "A navy knit vest layered over a white long-sleeve tee",
+      "A soft pastel mint tee under a light denim overshirt",
+      "A washed navy sweatshirt with subtle cracking print removed (no logo)",
+      "A simple rugby-style shirt in muted navy/cream, collar relaxed",
+      "A thin cardigan in heather charcoal over a crew tee",
+      "A light brown corduroy overshirt with minimal pockets"
+    ]
+  },
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "A straight-on bust shot from shoulders to mid-chest, centered and balanced",
+      "A slight high-angle bust shot to soften the shy mood while keeping proportions",
+      "A mild low-angle bust shot that remains modest and non-dramatic",
+      "A gentle right three-quarter bust shot to reveal hair and ear coverage",
+      "A gentle left three-quarter bust shot emphasizing fringe and cheek line",
+      "A tighter crop that keeps chin and hair edge, emphasizing modesty",
+      "A mid-bust crop including the collarbone area for a natural framing"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone around #FFEBD9 and hair color around #353232 with natural, non-greasy gloss",
+      "Maintain realistic, soft brushwork and balanced neutral lighting as the reference",
+      "Avoid flashy accessories or logos; emphasize practical, comfortable student clothing",
+      "Preserve modest facial proportions and gentle eye shape without exaggeration",
+      "Use a neutral background tone that does not compete for attention",
+      "Favor soft edges and low-contrast tones suitable for a campus mood",
+      "Keep accessories minimal: plain backpack straps or a simple lanyard only"
+    ]
+  }
+]

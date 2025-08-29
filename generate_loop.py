@@ -6,14 +6,14 @@ API_URL = "http://localhost:8000/generateDataset"
 
 # --- Configuration ---
 # 'shot_type', 'expression', or 'both'
-GENERATION_MODE = "both"
+GENERATION_MODE = "shot_type"
 
 # 'shot_type' mode
-SHOT_TYPE_CHARACTERS = ["ryder"]
-NUM_SAMPLES_PER_SHOT_TYPE = 4
+SHOT_TYPE_CHARACTERS = ["bunta"]
+NUM_SAMPLES_PER_SHOT_TYPE = 3
 
 # 'expression' mode
-EXPRESSION_CHARACTERS = ["ryder"]
+EXPRESSION_CHARACTERS = ["bunta"]
 EXPRESSIONS = ["smile", "angry", "sad"]
 ANGLES = ["front", "left_three_quarter", "right_three_quarter"]
 NUM_SAMPLES_PER_EXPRESSION = 1
@@ -40,6 +40,8 @@ def get_trigger_word(character_name, prefix=None):
             prefix = "fh"
         elif character_name in ["lazie", "yuuma"]:
             prefix = "gb"
+        elif character_name in ["yui", "bunta"]:
+            prefix = "az"
         else:
             # 알 수 없는 캐릭터의 경우 기본값으로 "fh" 사용
             prefix = "fh"

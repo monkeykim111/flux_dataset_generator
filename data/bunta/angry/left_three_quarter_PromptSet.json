@@ -1,0 +1,43 @@
+[
+  {
+    "category": "camera_angle",
+    "prompts": [
+      "a bust shot from a left three-quarter angle",
+      "a bust shot from a left profile angle, head slightly tilted downward",
+      "a bust shot from a left rear three-quarter angle, showing hair over the ear",
+      "a gentle left three-quarter with a mild head bow, not confrontational",
+      "a tight left three-quarter crop emphasizing fringe and cheek line",
+      "a left three-quarter with a subtle high camera to soften intensity"
+    ]
+  },
+  {
+    "category": "expression",
+    "prompts": [
+      "a flustered, contained anger with brows knit but eyes still gentle",
+      "a small frown showing frustration without hostility",
+      "an embarrassed upset after misunderstanding, quickly tempered",
+      "a tense mouth line that relaxes into politeness",
+      "a quiet frustration paired with a soft, apologetic eye",
+      "a restrained complaint forming, then swallowed with a small breath",
+      "a worried anger about overstepping a boundary, quickly self-corrected"
+    ]
+  },
+  {
+    "category": "gaze",
+    "prompts": [
+      "Adjust gaze slightly downward as if doubting himself, preserving head angle",
+      "Look to the lower left as if avoiding eye contact after a slip",
+      "Hold eyes forward briefly, then soften focus to the side",
+      "Glance briefly at his hands or a cup before returning eye line"
+    ]
+  },
+  {
+    "category": "style_consistency",
+    "prompts": [
+      "Keep skin tone near #FFEBD9 and hair color near #353232 with natural matte gloss",
+      "Maintain left-side hair and ear coverage silhouette consistent and tidy",
+      "Avoid harsh contrast; express mood through subtle micro-expressions",
+      "Avoid over-reddening cheeks; keep warmth subtle and controlled"
+    ]
+  }
+]
